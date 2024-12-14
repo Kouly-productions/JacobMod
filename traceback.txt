@@ -1,0 +1,26 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 11, in script call
+    call ch4_main from _call_ch4_main
+  File "game/script-ch4.rpy", line 960, in script
+    jump choose_sakura
+ScriptError: could not find label 'choose_sakura'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 11, in script call
+    call ch4_main from _call_ch4_main
+  File "game/script-ch4.rpy", line 960, in script
+    jump choose_sakura
+  File "D:\Services\RenPy\renpy-8.2.3-sdk\renpy\ast.py", line 1701, in execute
+    rv = renpy.game.script.lookup(target)
+  File "D:\Services\RenPy\renpy-8.2.3-sdk\renpy\script.py", line 1103, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'choose_sakura'.
+
+Windows-10-10.0.22631 AMD64
+Ren'Py 8.2.3.24061702
+A Week Of School 2 1.0.0
+Sat Dec  7 16:57:44 2024

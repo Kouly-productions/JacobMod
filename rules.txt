@@ -1,0 +1,11 @@
+﻿Music:
+    t8 In home
+    t2 In Street
+    t3 In school OR halls
+    t4, t5 In class
+    t31 Teacher in class
+    t30 In cute moments
+    t9 In home night
+    scarySchoolLesson Intense class
+    joyful non special events
+    cantine In cantine
