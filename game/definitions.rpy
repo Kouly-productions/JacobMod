@@ -1207,7 +1207,8 @@ define b = DynamicCharacter('baldi_name', image='baldi', what_prefix='"', what_s
 define vanny = DynamicCharacter('vanny_name', image='vanny', what_prefix='"', what_suffix='"', ctc="ctc", ctc_position="fixed")
 define glitchtrap = DynamicCharacter('glitchtrap_name', image='glitchtrap', what_prefix='"', what_suffix='"', ctc="ctc", ctc_position="fixed")
 define chica = DynamicCharacter('chica_name', image='chica', what_prefix='"', what_suffix='"', ctc="ctc", ctc_position="fixed")
-define person = DynamicCharacter('person_name', image='chica', what_prefix='"', what_suffix='"', ctc="ctc", ctc_position="fixed")
+define person = DynamicCharacter('person_name', image='person', what_prefix='"', what_suffix='"', ctc="ctc", ctc_position="fixed")
+define springtrap = DynamicCharacter('springtrap_name', image='springtrap', what_prefix='"', what_suffix='"', ctc="ctc", ctc_position="fixed")
 #NEW
 define ay = DynamicCharacter('ay_name', image='ayano', what_prefix='"', what_suffix='"', ctc="ctc", ctc_position="fixed")
 define ak = DynamicCharacter('ak_name', image='akira', what_prefix='"', what_suffix='"', ctc="ctc", ctc_position="fixed")
@@ -1259,6 +1260,7 @@ default glitchtrap_name = "Glitchtrap"
 default elias_name = "Elias"
 default chica_name = "Chica"
 default person_name = "Person"
+default springtrap_name = "springtrap"
 default baldi_name = "Baldi"
 default eddy_name = "Eddy"
 default h_name = "Helpy"
