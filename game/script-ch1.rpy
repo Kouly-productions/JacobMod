@@ -11,7 +11,7 @@ label ch1_main:
 
     # Lærer:
     # Glitchtrap = glitchtrap
-    # Foxy = f
+    # Foxy = fo
     # Blækward
     # Springtrap = springtrap
     # Freddy = f
@@ -32,7 +32,7 @@ label ch1_main:
     # Svampebob
     # Yuri = y
     # Monika = m
-    # Fnaf world Bonnie
+    # Fnaf world Bonnie =fb
 
     stop music fadeout 2.0
 
@@ -152,6 +152,107 @@ label ch1_main:
     eddy "er glad for du spøger,det er en club hvor man skriver digte,eller tegner eller læser bøger,jeg husker også at de læser manga og bager der over"
     mc "det nogen ret gode valg"
     eddy "så hvilken club vil du joine?"
+    menu:
+        "ittelturclubben":
+            pass
+    eddy "godt valg,det også en god club"
+    mc "jeg kunne ikke vælge andre aligevel"
+    eddy "oh,jeg beklager,de andre 2 clubber er lukkede forevigt,men vi må heler tage til klassen"
+    "du tog ind i classen"
+    scene bg class_day
+    h "jeg håber at vi får en god lære den her gang,nå vent,det har vi ingeng gang!"
+    "lære freddy kom ind til jer"
+    f "hej små elever"
+    h "edtemindste er det ikke toy freddy"
+    f "kan i gætte hvad vi skal lave idag?"
+    h "åh nej,er det matematik?"
+    f "nej inu bedre,idag skal vi have quiz time"
+    h "oh,det lyder ikke så dårligt"
+    f "i får nogen spørgsmål i skal svare rigtigt på"
+    f "vi starter med dig helpy,hvem har lavet hey halo sangen?"
+    h "what!,hvor skulle jeg vide det fra,er det buksefreddy?"
+    f "forkert!,du så trash helpy!"
+    h "det gav mig jo også en umulig quiz!"
+    f "stille snegl!,så det dig vanny,hvorfor er himlen blå?"
+    vanny "det ved jeg da ikke,den er faktisk umulig what"
+    f "SVAR NU PÅ SPØRGSMÅLET!"
+    vanny "okay okay jeez,er det vejret der gør det?"
+    f "det helt utroligt så forkert du svaret øjjj!"
+    vanny "lul"
+    f "så det dig funtime buks skulle man kalde dig for skulle man tro"
+    fx "luuuu,det vil jeg meget gerne blive kaldt for fra nu af"
+    f "okay,jeg er ret ligeglad,når hvordan laver man selv is?"
+    fx "man bruger et par bukser"
+    f "forkerrrrrrrt!"
+    "du synes sikkert at freddy virker ret sinsyg når han bliver sur"
+    f "så det dig sayori,hvordan ungår man at tabe bukserne?"
+    s "det nemt for mig da jeg taber ofte bukserne,jeg har også et bælte på,men når jeg ikke har bælte på så glider bukserne ned"
+    f "jeg ved ikke lige hvorfor at vi skulle vide det men okay,når men svar på spørgsmålet"
+    s "man holder bukserne oppe med et bælte"
+    f "rigtigt,der er en grund til at sayori er en af mine ynglings elever"
+    h "seriøst!,det var et børnehave spørgsmål og dulled på sammentid!"
+    f "jeg sagde at du skulle være stille dumme snegl!"
+    f "så det dig natsuki,hvad betyder ordsproget at blive taget med næsen"
+    n "er det ik det samme som at blive snydt"
+    f "det rigtigt,godt svaret"
+    f "så det dig yuri,siden dine venner mener at du er såååå klog,så giver jeg dig en svær quiz,hvad vil det sige når man dividere?"
+    h "endelig er det ikke kun mig der får umulig spørgsmål"
+    y "tror ikke at jeg ved hvordan man skal svare på det,deler man ting op i den slags?"
+    f "det rigtigt,det vildt,jeg regnet ikke med at du vil klare den"
+    y "virkelig,ingeng ros eller noget"
+    f "nah du er 16 år,det kun små børn der får ros"
+    y "det giver ingeng menning"
+    h "what!,du siger altid at vi er små elever,og ligepludselig ændre du bare menning bare fordi du ikke vil rose en elev!"
+    f "tie nu stille!,ellers bliver der efersedning til jer begge!"
+    f "så det dig bonnie,skulle kalde dig lille bonnie"
+    fb "hvorfor?"
+    f "fordi du er lille som en lille baby haha"
+    fb "dårlig joke"
+    f "stille baby snegl,når her er din quiz,hvilken person har en karakter i wow som hedder æøøå,det en spiller der har karakteren skal det siges"
+    fb "what!,den er jo mega umulig,er det æblemanden"
+    f "forkert!,du så ubrulig bonnie!"
+    fb "hvor skulle jeg vide det fra!"
+    h "han ved sikkert ingeng gang selv hvem det er,såden er det altid når de giver umulige spørgsmål"
+    f "selvfølige ved jeg hvem det er,det benjamin"
+    fb "what!,hvordan skulle jeg svare rigtigt på det,det jo bare en random person som du kender!"
+    f "du skulle bare bruge wallhack,ligesom jeg gjor"
+    h "når ja det kan man jo også bare"
+    f "så det dig akira,hvad gør man mod dem der pøller!"
+    ak "det ved jeg ikke,sprøjter man ik bare noget duft mod det?"
+    f "forkert!,som om at det hjælper"
+    ak "hvad vil du havet gjort ved det?"
+    f "tja jeg kan jo ligeså godt fortælle dig det rigtige svar nu hvor du dumpet!,man skyller personen ud i toiletet når de har pøllet selvføgelig"
+    ak "er det ik lidt voldigt?"
+    f "voldigt?,næ det retfærdighed"
+    h "du ret sindsyg freddy,men det viste vi alle aligevel"
+    f "sagde jeg at du må tale snegl!"
+    f "din tur ayano,hvorfor er freddy lederen?"
+    h "åh nej ikke den skræld joke"
+    ay "fordi det en freddy?"
+    f "ja,lige presis,haha haaaaaaa"
+    ay "woaow...sjovt"
+    f "ja ik,den bedste joke"
+    h "tror hun var chakastisk"
+    f "ingeng har bedt om din menning snegl!"
+    f "så det dig sakura,hvem har lavet så du tabe din buuuks sangen"
+    sa "buksefreddy"
+    h "hvor dulled kan man lige være"
+    f "det rigtigt sakura,så det dig mc,hvad hedder dinosauren som får folk til at pølle"
+    menu:
+        "pøllesauren":
+            f "rigtigt svaret,godt at nogen kan svare rigtigt help!"
+            h "er du serøs!,en babi kunne svare på det"
+        "ghostdragon":
+            f "waow,mener du virkelig det?,hvordan fejler du den her nemme opgave"
+        "frygt skurken":
+            f "hvor dum er du lige,du svaret omega forkert!"
+    f "når men nu har i frikvater,håber i har haft det sjovt"
+    h "det har vi aldrig"
+    "du tog ud til frikvateret sammen med de andre,hvem vil du bringe tid med?
+    
+
+
+
     
 
     return
