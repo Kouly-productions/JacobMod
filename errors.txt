@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script-ch1.rpy", line 2373: Line is followed by a block, despite not being a menu choice. Did you forget a colon at the end of the line?
-    "Jeg er forelsket i hende"
-                              ^
+File "game/script-ch1.rpy", line 251: is not terminated with a newline. (Check strings and parenthesis.)
+(Perhaps you left out a " at the end of the first line.)
+        "du tog ud til frikvateret sammen med de andre,hvem vil du bringe tid med?
 
-Ren'Py Version: Ren'Py 8.2.3.24061702
-Thu Nov 28 22:05:31 2024
+Ren'Py Version: Ren'Py 8.3.4.24120703
+Sat Dec 14 20:28:40 2024

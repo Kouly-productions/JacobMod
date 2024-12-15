@@ -12,7 +12,7 @@ label ch1_main:
     # Lærer:
     # Glitchtrap = glitchtrap
     # Foxy = fo
-    # Blækward
+    # Blækward = bd
     # Springtrap = springtrap
     # Freddy = f
     # Toy Freddy = tf
@@ -248,7 +248,106 @@ label ch1_main:
             f "hvor dum er du lige,du svaret omega forkert!"
     f "når men nu har i frikvater,håber i har haft det sjovt"
     h "det har vi aldrig"
-    "du tog ud til frikvateret sammen med de andre,hvem vil du bringe tid med?
+    "du tog ud til frikvateret sammen med de andre,hvem vil du bringe tid med?"
+    scene bg school_yard
+    menu:
+        "sayori":
+            mc "jeg tænker at jeg vil være sammen med sayori,hun er altid så sød"
+            "du går hen til sayori for at være sammen med hinde i frikvateret"
+            mc "hej sayori,vil gerne være sammen med dig"
+            s "hej mc jeg er glad for at du vælger mig,det så rart at være sammen"
+            mc "så hvad skal vi lave?"
+            s "lad os hoppe på trampolinen,det altid sjovt,især fordi jeg ikke taber bukserne"
+            mc "haha,ja,lad os hoppe"
+            "i begyndte at hoppe på trampolinen,det var ret sjov for jer"
+            s "det var sjovt at være sammen,lad os gøre det igen en anden dag"
+            mc "ja,det var sjovt,men klokken ringet så vi må heler komme ind til time"
+            s "ja du har ret,lad os komme til time"
+            "i gik ind til skole klassen igen"
+        "helpy":
+            mc "jeg tænker at jeg vælger helpy,han er altid så sjov"
+            "du gik hen til helpy og var sammen med ham"
+            h "hej,hvad vil du?"
+            mc "jeg vil gerne være sammen med dig"
+            h "mener du virkelig det?"
+            mc "ja selvføgelig,du altid så sjov at være sammen med"
+            h "tak,jeg er taknemmelig,hvad siger du til at vi snakker om hvilken lære vi hader mest?"
+            mc "det kan vi godt,du kan starte"
+            h "okay den jeg hader mest er toy freddy,han har ALT for mange regler"
+            mc "det er forståligt,det heler ikke så retfærdigt af ham"
+            h "nej vel,han er mega trash,men hvem hader du mest?"
+            mc "helt klart baldi,han er syg i hoved,og min fætter jacob har nogen gange lyst til at smadre ham"
+            h "hvor kender du baldi fra?"
+            mc "min fætter fortalte mig om ham"
+            h "arh okay,det giver menning"
+            "klokken ringet,i skulle til time igen"
+            mc "når der er time igen,men det var sjovt at være sammen med dig"
+            h "tak,det var også sjovt at være sammen med dig,du faktisk den eneste der forstår mig"
+            mc "er jeg virkelig den eneste der kan lide dig?"
+            h "det skulle man tro,når men lad os tage til time"
+            "i gik til klassen"
+        "natsuki":
+            mc "jeg tænker at jeg vil være sammen med natsuki,hun virker ret sød"
+            "intresant valg,du gik hen til natsuki"
+            n "yo mc hvaså?"
+            mc "hej natsuki,tænker om vi kan være sammen"
+            n "ja hvorfor ikke"
+            mc "fedt,hvad har du lyst til at lave?"
+            n "tænker at jeg vil kigge på tøj på nettet"
+            mc "det virker lidt dulled"
+            n "pf,det ved jeg,men jeg har ikke nok tøj,men hvis du ikke er intreseret så må du bare lade mig være"
+            mc "oh,jeg har det fint nok med det,lad os kigge på tøj,hvilken mubil bruger vi?"
+            n "vi bruger bare min"
+            mc "okay"
+            "i kigget på tøj på mubilen,i godt nok dulled skulle man tro"
+            n "wow se de bukser,dem vil jeg gerne have"
+            mc "de også ret nice"
+            "i brugte hele jeres frikvater på at kigge på tøj,det ret dulled når man tænker over det"
+            n "det var okay sjovt at være sammen med dig mc"
+            mc "tak,det var også mega sjovt at være sammen med dig,selv om det handlet om dul"
+            "i gik til klassen"
+    "i kom til klassen og i fik toy freddy som lære"
+    scene bg class_day
+    h "er du seriøs,dig igen!"
+    tf "det rigtigt,i får det så sjovt"
+    h "må jeg godt græde nu"
+    tf "nej tudefjæs,det vil vi ikke høre på"
+    h "what hvor flabed!"
+    tf "når når når,så du kalder mig flabed var,det bliver en bøde på 500kr"
+    h "jeg hader den her skole"
+    tf "idag skal vi have kunst"
+    h "siden hvornår er du blvet kunst lære?"
+    tf "siden nu lille snegl"
+    h "behøver i virkelig at kalde mig for det"
+    tf "ja det gør vi,og du skylder 100kr ekstra for at være irriteret"
+    h "hvorfor går jeg overhovedt i den her skole"
+    tf "jeg vil have jer til at tegne mig,den der tegner mig godt består,hvis man fejler dumper man,og får 50kr i bøde for at fejle"
+    ay "det virker lidt unfair"
+    h "enig"
+    tf "lev med dig små børn,jeres time begynder nu,jeg forventer en god tegning"
+    "nu skal du slå terning"
+    menu:
+        "1 2":
+            "du lavet en forfærdlig tegning"
+            mc "jeg er færdig med at tegne"
+            tf "lad mig se"
+            tf "what hvad er det jeg ser,det ligner jo en gammel grim mand"
+            h "så ligner det dig ret godt"
+            tf "stille snegl!,det bliver en bøde på 200kr snegl"
+            h "seriøst!"
+            tf "og du skylder 50 kr for at fejle mc"
+            mc "jeg gjor mit bedste"
+            tf "dit bedste var godt nok forfærdelig så!"
+            
+        
+
+
+
+            
+        
+
+        
+     
     
 
 
