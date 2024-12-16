@@ -1,15 +1,15 @@
-2024-12-15 16:20:49 UTC
+2024-12-15 19:02:56 UTC
 Windows-10-10.0.19045
 Ren'Py 8.3.4.24120703
 
-Early init took 0.09s
+Early init took 0.10s
 Loading error handling took 0.03s
-Loading script took 0.26s
+Loading script took 0.27s
 Loading save slot metadata took 0.13s
 Loading persistent took 0.00s
 Running init code took 0.09s
 Loading analysis data took 0.01s
-Analyze and compile ATL took 0.02s
+Analyze and compile ATL took 0.03s
 Reloading save slot metadata took 0.09s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\Jacob\\AppData\\Roaming/RenPy/backups\\JacobMod':
@@ -27,11 +27,11 @@ Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.01s
 Save screen analysis took 0.01s
-Prepare screens took 0.05s
+Prepare screens took 0.04s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.03s
 Running _start took 0.00s
-Interface start took 0.07s
+Interface start took 0.06s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
@@ -144,4 +144,84 @@ While running game code:
     call ch1_main from _call_ch1_main
   File "game/script-ch1.rpy", line 217, in script
     fb "what!,hvordan skulle jeg svare rigtigt på det,det jo bare en random person som du kender!"
+Exception: Sayer 'fb' is not defined.
+
+Full traceback:
+  File "game/script.rpy", line 8, in script call
+    call ch1_main from _call_ch1_main
+  File "game/script-ch1.rpy", line 377, in script
+    fb "nu min færdig"
+  File "C:\Users\Jacob\Desktop\renpy-8.3.4-sdk\renpy\ast.py", line 2579, in execute
+    Say.execute(self)
+  File "C:\Users\Jacob\Desktop\renpy-8.3.4-sdk\renpy\ast.py", line 581, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\Jacob\Desktop\renpy-8.3.4-sdk\renpy\ast.py", line 470, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'fb' is not defined.
+
+While running game code:
+  File "game/script.rpy", line 8, in script call
+    call ch1_main from _call_ch1_main
+  File "game/script-ch1.rpy", line 377, in script
+    fb "nu min færdig"
+Exception: Sayer 'fb' is not defined.
+
+Full traceback:
+  File "game/script.rpy", line 8, in script call
+    call ch1_main from _call_ch1_main
+  File "game/script-ch1.rpy", line 380, in script
+    fb "men du må da indrømme at det er en pæn guitar"
+  File "C:\Users\Jacob\Desktop\renpy-8.3.4-sdk\renpy\ast.py", line 2579, in execute
+    Say.execute(self)
+  File "C:\Users\Jacob\Desktop\renpy-8.3.4-sdk\renpy\ast.py", line 581, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\Jacob\Desktop\renpy-8.3.4-sdk\renpy\ast.py", line 470, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'fb' is not defined.
+
+While running game code:
+  File "game/script.rpy", line 8, in script call
+    call ch1_main from _call_ch1_main
+  File "game/script-ch1.rpy", line 380, in script
+    fb "men du må da indrømme at det er en pæn guitar"
+Exception: Sayer 'fb' is not defined.
+
+Full traceback:
+  File "game/script.rpy", line 8, in script call
+    call ch1_main from _call_ch1_main
+  File "game/script-ch1.rpy", line 382, in script
+    fb "så selvisk"
+  File "C:\Users\Jacob\Desktop\renpy-8.3.4-sdk\renpy\ast.py", line 2579, in execute
+    Say.execute(self)
+  File "C:\Users\Jacob\Desktop\renpy-8.3.4-sdk\renpy\ast.py", line 581, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\Jacob\Desktop\renpy-8.3.4-sdk\renpy\ast.py", line 470, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'fb' is not defined.
+
+While running game code:
+  File "game/script.rpy", line 8, in script call
+    call ch1_main from _call_ch1_main
+  File "game/script-ch1.rpy", line 382, in script
+    fb "så selvisk"
+Exception: Sayer 'fb' is not defined.
+
+Full traceback:
+  File "game/script.rpy", line 8, in script call
+    call ch1_main from _call_ch1_main
+  File "game/script-ch1.rpy", line 384, in script
+    fb "what hvorfor"
+  File "C:\Users\Jacob\Desktop\renpy-8.3.4-sdk\renpy\ast.py", line 2579, in execute
+    Say.execute(self)
+  File "C:\Users\Jacob\Desktop\renpy-8.3.4-sdk\renpy\ast.py", line 581, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\Jacob\Desktop\renpy-8.3.4-sdk\renpy\ast.py", line 470, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'fb' is not defined.
+
+While running game code:
+  File "game/script.rpy", line 8, in script call
+    call ch1_main from _call_ch1_main
+  File "game/script-ch1.rpy", line 384, in script
+    fb "what hvorfor"
 Exception: Sayer 'fb' is not defined.

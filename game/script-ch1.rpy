@@ -407,6 +407,18 @@ label ch1_main:
     tf "klap karry snegl,når men du består yuri"
     y "tak,jeg gjor virkelig mit bedste"
     "der lidt for mange elever,han gik mod akira for at se hindes tegning"
+    tf "godt tegnet akira,du har god talent"
+    ak "tak,jeg har øvet mig"
+    tf "lad mig se hvad du har tegnet saruka"
+    sa "jeg har tegnet dig såden hvor du smiler"
+    tf "og det ligner mig faktisk ret godt,du består"
+    h "borset fra at du er mest sur"
+    tf "stille snegl!,det en bøde på 200kr for at være flabed"
+    h "værste skole nogensinde"
+    tf "så vi færdige her,i har spise pause nu,"
+    "i alle gik mod katinen og hen til chica for at bestile"
+
+
 
 
         

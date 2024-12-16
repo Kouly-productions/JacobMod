@@ -3,8 +3,8 @@
 While running game code:
   File "game/script.rpy", line 8, in script call
     call ch1_main from _call_ch1_main
-  File "game/script-ch1.rpy", line 217, in script
-    fb "what!,hvordan skulle jeg svare rigtigt på det,det jo bare en random person som du kender!"
+  File "game/script-ch1.rpy", line 384, in script
+    fb "what hvorfor"
 Exception: Sayer 'fb' is not defined.
 
 -- Full Traceback ------------------------------------------------------------
@@ -12,8 +12,8 @@ Exception: Sayer 'fb' is not defined.
 Full traceback:
   File "game/script.rpy", line 8, in script call
     call ch1_main from _call_ch1_main
-  File "game/script-ch1.rpy", line 217, in script
-    fb "what!,hvordan skulle jeg svare rigtigt på det,det jo bare en random person som du kender!"
+  File "game/script-ch1.rpy", line 384, in script
+    fb "what hvorfor"
   File "C:\Users\Jacob\Desktop\renpy-8.3.4-sdk\renpy\ast.py", line 2579, in execute
     Say.execute(self)
   File "C:\Users\Jacob\Desktop\renpy-8.3.4-sdk\renpy\ast.py", line 581, in execute
@@ -25,4 +25,4 @@ Exception: Sayer 'fb' is not defined.
 Windows-10-10.0.19045 AMD64
 Ren'Py 8.3.4.24120703
 A Week Of School 2 1.0.0
-Sun Dec 15 17:21:52 2024
+Sun Dec 15 20:06:23 2024
