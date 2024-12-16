@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script-ch1.rpy", line 251: is not terminated with a newline. (Check strings and parenthesis.)
-(Perhaps you left out a " at the end of the first line.)
-        "du tog ud til frikvateret sammen med de andre,hvem vil du bringe tid med?
+File "game/script-ch1.rpy", line 610: expected statement.
+    "59.000":
+            ^
 
 Ren'Py Version: Ren'Py 8.3.4.24120703
-Sat Dec 14 20:28:40 2024
+Mon Dec 16 17:08:10 2024
