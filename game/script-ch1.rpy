@@ -710,7 +710,106 @@ label ch1_main:
     s "hvad siger du til at vi går en tur i parken"
     mc "det lyder som en god ide,lad os gøre det"
     "i gik mod en smuk skov"
-    scene bg 
+    scene bg street_rain3
+    "i er nået frem til den smukke skov"
+    mc "den her skov er så smuk"
+    s "ja ik,det er virkelig smukt ik sandt"
+    mc "det har du ret i"
+    s "har du haft en god dag sammen med mig?"
+    mc "selvføgelig har jeg haft det,du er mega sød"
+    s "årh tak det sødt af dig at sige"
+    mc "så lad os snakke om noget tilfældigt"
+    s "god ide,jeg vil elske det"
+    mc "kender du league of legends?"
+    s "nej hvad er det?"
+    "hun smilte men så også lidt forvirret ud,nok fordi at du er så mærkelig"
+    mc "det var ikke særlig pænt sagt lasse"
+    "tag en tude kiks"
+    mc "league of legends er et spil hvor man kan stige level og få kills,og kills giver penge"
+    s "kender det stadig ikke,men det lyder okay sjovt"
+    s "okay min tur,har du hørt de sjove jokes vores skole lære freddy og sprintrap har lavet?"
+    mc "ja jeg glæder mig til at høre det"
+    s "hvorfor er freddy lederen?"
+    mc "det ved jeg ikke hvorfor?"
+    s "det fordi han er en freddy haha"
+    mc "ja det sjovt nok"
+    s "og spirngtraps joke kommer nu,hvorfor bliver det kaldt for popcorn?"
+    mc "hvorfor?"
+    s "det fordi det er proppet corn,haha det så genealt"
+    mc "tja det var da også en okay joke"
+    s "virkelig,jeg viste at du vil kunne lide det"
+    mc "har du set den der alya serie?"
+    s "oh ja,den er rigtig god og sjov,det minder om doki doki spillet"
+    mc "det gøre det faktisk ja"
+    s "har du set ron fra den der kim serie?"
+    mc "når ja han er også ret sjov"
+    s "ja og han taber altid bukserne,det sjovt fordi det oplever jeg også ofte"
+    mc "hehe,det tror jeg på"
+    s "der er noget jeg må fortælle,du den eneste jeg tør at sige det til,da jeg kan så godt lide dig"
+    mc "jeg lytter,du kan fortælle mig hvad som helst"
+    s "lover du mig at du ikke vil sige det vidre til de andre?"
+    mc "ja det bliver bare mellem os 2"
+    s "jeg har en depression,jeg føler mig ofte ubrulig og svag,jeg føler bare at alle er bedre in mig "
+    "hun bliv pludseligt ked af det,hvordan vil du mon støtte hinde?,dur du mon til det hmmmm"
+    mc "Jeg er så ked af at høre, at du føler sådan. Det må være virkelig hårdt for dig"
+    mc "Tak fordi du fortalte mig det. Det betyder meget, at du deler det med mig."
+    s "jeg er så glad for din støtte,men det gør stadig ondt"
+    mc "Du er ikke alene i det her. Jeg er her for dig, og jeg vil gerne hjælpe dig"
+    s "det sødt af dig,men er det overhovedt okay at vise sin depression"
+    mc "ja,Det er okay at føle sig sådan, men husk, at du betyder meget for mig og for andre"
+    s "årh tak,du er min bedste ven"
+    "hun fik det bedre og kramte dig og stoppet efter 5 seckundter"
+    mc "så har du mod på at vi laver noget mere nu?"
+    s "ja jeg har faktisk en sjov ide"
+    mc "jeg lytter"
+    s "okay fedt,vi kunne spille sten saks og papir,taberen skal lave en akavat dans,foran vinderen"
+    mc "jeg er frisk på den"
+    s "nice du vil elske det,lad os komme igang"
+    "i begyndte at spille sten saks og papir,nu skal du slå terning"
+    menu:
+        "1 2 3":
+            "du tabte til sayori,du så dårlig,hvor er jeg bare sjov"
+            s "haha,det var vist mig der havet bukserne på"
+            mc "godt spillet sayori"
+            s "tak og nu skal du lave en akavet dans"
+            "du dansede som en grim taber og sayori kunne ikke lade være med at grine"
+            s "hehe det var ret sjovt,især for mig"
+            mc "er det okay at jeg overnatter hos dig idag?"
+            s "yay,det vil være så sjovt,lad os komme afsted"
+            "i tog hjem til sayori og straks hen til soveværelset da klokken bliv 22:00"
+        " 4 5 6":
+            mc "aha jeg vandt,jeg glæder mig til at se dig danse"
+            s "hehe,du er mega god,og jeg vil prøve noget sjovt for at få dig til at grine"
+            mc "nice,du er altid så sød og sjov"
+            "hun rødmet lidt af din komplement"
+            s "tak hehe,jeg vil nu tage bæltet af og danse som en hiphopper"
+            "hun tog bæltet af og begyndte at danse somen hip hopper,og hun endte med at tabe bukserne"
+            mc "Øhh, Sayori... Hvorfor... Fik du pludseligt lyst til at danse, og uden et bælte?"
+            mc "Ville det ikke i det mindste give mening at have bæltet på imens? Og hvorfor bruger du bukser i stedet for et skørte?"
+            s "hehe,okay det var ret pingligt,jeg har måske ikke gennemtænkt det helt"
+            s "og jeg er bare blivet glad for at gå i bukser"
+            "sagde hun mens hun rødmet og trak bukserne op og tog bæltet på igen"
+            "i tog hjem til sayori og da den er 22:00"
+    "i tog hjem til sayori og gik til soveværelset da det er sendt som klokken er 22:15"
+    scene bg sayori_bedroom
+    s "det var en rigtig sjov aften"
+    mc "helt enig,du en fantastisk ven"
+    s "du også en rigtig god ven,den bedste ven faktisk"
+    "i gik i seng og faldte i søvn"
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
     
 
 
