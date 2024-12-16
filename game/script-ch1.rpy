@@ -797,47 +797,4 @@ label ch1_main:
     s "du også en rigtig god ven,den bedste ven faktisk"
     "i gik i seng og faldte i søvn"
 
-
-
-
-
-
-
-
-
-
-
-    
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
-
-
-
-            
-        
-
-        
-     
-    
-
-
-
-    
-
     return
