@@ -7,7 +7,7 @@ label ch1_main:
     $ currentDay = "Mandag"
 
     # Rekter:
-    # darthjacob= da
+    # darthjacob = da
 
     # Lærer:
     # Glitchtrap = glitchtrap
@@ -17,7 +17,7 @@ label ch1_main:
     # Freddy = f
     # Toy Freddy = tf
     # Baldi= b
-    # chica= c
+    # chica = chica
 
     # Elever:
     # Eddy = eddy
@@ -30,10 +30,10 @@ label ch1_main:
     # Natsuki = n
     # Funtime Foxy = fx
     # Vanny = vanny
-    # Svampebob= sv
+    # Svampebob = sb
     # Yuri = y
     # Monika = m
-    # Fnaf world Bonnie =fb
+    # Fnaf world Bonnie = fb
 
     stop music fadeout 2.0
 
@@ -418,17 +418,17 @@ label ch1_main:
     h "værste skole nogensinde"
     tf "så vi færdige her,i har spise pause nu,"
     "i alle gik mod katinen og hen til chica for at bestile"
-    scene bg cantineldle
-    c "hej hvad vil du gerne bestille idag"
+    scene bg cantineIdle
+    chica "hej hvad vil du gerne bestille idag"
     menu:
         "pizza 120kr":
-            c "godt valg,det bliver 120kr,pizza er også bare det bedste"
+            chica "godt valg,det bliver 120kr,pizza er også bare det bedste"
             mc "helt enig,det smager altid så godt"
             "du gik ud til cantinen for at spise"
         "burger 80kr":
-                c "godt valg,burger er altid så lækkert"
+                chica "godt valg,burger er altid så lækkert"
                 mc "jep jeg elsker burger"
-                c "det bliver 80kr"
+                chica "det bliver 80kr"
                 tf "hej mc,det fedt at se at du også kan lide burger,burger er min livret"
                 mc "det også min livret"
                 tf "det forstår jeg godt,burger er også lækkert"
@@ -550,10 +550,10 @@ label ch1_main:
     "han er meget onder in sidste gang tænkte du"
     b "så det dig vanny,hvad er 29190+55555555"
     vanny "jeg bruger lige min magiere til at kunne kende svaret"
-    "pludseligt kunne i høre gltichtrap komme tætter og tætter på"
-    gltichtrap "UUUUUUUU VANNNY!"
+    "pludseligt kunne i høre glitchtrap komme tætter og tætter på"
+    glitchtrap "UUUUUUUU VANNNY!"
     vanny "jeg brugte bare magiere"
-    gltichtrap "what hvor du OP VANNY,kom her vanny nu skal vi op i taget"
+    glitchtrap "what hvor du OP VANNY,kom her vanny nu skal vi op i taget"
     vanny "arh,du syg i hoved"
     "glitchtrap tog fat i vanny og tog hinde med ham"
     b "det var godt nok mærkeligt,når men hun dumpet også,hvad der galt med jer elver"
@@ -653,8 +653,70 @@ label ch1_main:
     "du gik ind i clubben"
     da "jeg kan godt forstå at mc er din ynglings elev toy freddy"
     tf "nej nej,min ynglings elev er natsuki,men ja,mc er også en god elev"
-    scene bg club
+    scene bg club_day
     "du så straks alle pigerne i clubben lave hver deres ting,monika kom hurtigt hen til dig"
+    m "hej jeg hedder monika godt at møde dig"
+    mc "hej monika jeg hedder mc,jeg vil gerne joine den her club"
+    s "yay det kommer til at være sjovt"
+    m "det helt fint med os,sayori hopper også af glæde nu"
+    h "jeg har også joinet clubben,det perfekt"
+    n "det fint nok tænker jeg"
+    m "jeg har en ide,hvad hvis nu mc var sammen med en af os hvor vi skifter med at lære ham at kende"
+    s "god ide monika,det vil blive så sjovt"
+    y "det lyder som et klogt valg"
+    m "så det afgjort,vi skiftes til at være sammen med ham"
+    s "jeg vil gerne starte"
+    mc "jeg havet faktisk tænkt mig at vælge sayori"
+    s "yay,vi kommer til at have det så sjovt"
+    mc "du meget optimistisk"
+    s "ja det ved jeg,det sødt at du bemærker det"
+    "hun kramte dig og stoppet kort efter igen"
+    "hun tog fat i din hånd og tager dig et sted hen hvor i kan lave noget sjovt"
+    scene bg closet
+    "i kom til skab rummet hvor der var alt mulig ting"
+    s "okay er du klar til at vi laver fint pønt til clubben"
+    mc "yep jeg er født klar"
+    s "super,lad os komme igang"
+    "Sayori roder rundt, spilder glitter og limer noget forkert "
+    s "ups,det var ikke lige menningen,"
+    mc "barerolig,jeg hjælper dig"
+    s "tak,du den bedste"
+    s "jeg er utrolig glad for at du valgte at joine den her club så vi kan bringe mere tid sammen"
+    mc "jeg er også glad for at vi 2 er venner"
+    "i kramte hindaen,det tydeligt at i har fået et smukt venskab"
+    "De færdiggør plakaten den er ikke perfekt, men Sayori synes, den er fantastisk."
+    s "phew,så det endelig færdigt,det var hårdt men også sjovt,jeg er så glad for at vi var sammen om det"
+    mc "jeg kan også lide at være sammen med dig"
+    mc "jeg er ikke lige mester det til men...."
+    s "du gjort det ret godt mc,du bedre in du tænker"
+    mc "tak for dine pæne ord"
+    "i tog ind til de andre som også bliv færdige med deres aktiviteter"
+    scene bg club_day
+    m "når hvordan gik det?"
+    s "det gik så godt,mig og mc har haft det mega sjovt sammen"
+    m "det er fantastisk,godt at i havet det så godt sammen,vi har også klaret det godt med vores aktiviteter"
+    s "yay vi har alle haft det godt,gruppe kram"
+    "i lavet et gruppe kram"
+    "klokken bliv 17:00,og clubben skal til at lukke"
+    m "det var hyggeligt,ses i morgen alle"
+    "i alle hilste farvel og tog ud"
+    scene bg street
+    "du stødte in på sayori"
+    s "hej,heldigt vi lige stødte ind på hindean var hehe"
+    mc "yep,jeg glad for at det bliv dig"
+    s "årh tak,det jeg glad for at høre"
+    mc "hey hvad siger du til at vi hænger ud?"
+    s "det vil jeg vildt gerne"
+    s "hvad siger du til at vi går en tur i parken"
+    mc "det lyder som en god ide,lad os gøre det"
+    "i gik mod en smuk skov"
+    scene bg 
+    
+
+
+
+
+
 
 
 

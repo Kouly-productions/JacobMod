@@ -3,8 +3,8 @@
 While running game code:
   File "game/script.rpy", line 8, in script call
     call ch1_main from _call_ch1_main
-  File "game/script-ch1.rpy", line 654, in script
-    da "jeg kan godt forstå at mc er din ynglings elev toy freddy"
+  File "game/script-ch1.rpy", line 639, in script
+    da "hvorfor?"
 Exception: Sayer 'da' is not defined.
 
 -- Full Traceback ------------------------------------------------------------
@@ -12,8 +12,8 @@ Exception: Sayer 'da' is not defined.
 Full traceback:
   File "game/script.rpy", line 8, in script call
     call ch1_main from _call_ch1_main
-  File "game/script-ch1.rpy", line 654, in script
-    da "jeg kan godt forstå at mc er din ynglings elev toy freddy"
+  File "game/script-ch1.rpy", line 639, in script
+    da "hvorfor?"
   File "C:\Users\Jacob\Desktop\renpy-8.3.4-sdk\renpy\ast.py", line 2579, in execute
     Say.execute(self)
   File "C:\Users\Jacob\Desktop\renpy-8.3.4-sdk\renpy\ast.py", line 581, in execute
@@ -25,4 +25,4 @@ Exception: Sayer 'da' is not defined.
 Windows-10-10.0.19045 AMD64
 Ren'Py 8.3.4.24120703
 A Week Of School 2 1.0.0
-Mon Dec 16 17:11:04 2024
+Mon Dec 16 17:57:37 2024
