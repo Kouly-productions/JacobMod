@@ -34,6 +34,7 @@ label ch1_main:
     # Yuri = y
     # Monika = m
     # Fnaf world Bonnie = fb
+    # bedste mor gris = br
 
     stop music fadeout 2.0
 
