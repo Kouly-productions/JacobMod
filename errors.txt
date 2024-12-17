@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script-ch1.rpy", line 610: expected statement.
-    "59.000":
-            ^
+File "game/script-ch2.rpy", line 696: is not terminated with a newline. (Check strings and parenthesis.)
+(Perhaps you left out a " at the end of the first line.)
+        "i tog ud og hen mod litteltur clubben
 
 Ren'Py Version: Ren'Py 8.3.4.24120703
-Mon Dec 16 17:08:10 2024
+Tue Dec 17 21:23:54 2024
