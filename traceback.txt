@@ -3,8 +3,8 @@
 While running game code:
   File "game/script.rpy", line 9, in script call
     call ch2_main from _call_ch2_main
-  File "game/script-ch2.rpy", line 605, in script
-    br "stort?,det lyder som pølle ahohohoho sjovt"
+  File "game/script-ch2.rpy", line 612, in script
+    br "arrrh hvad er det du gøre"
 Exception: Sayer 'br' is not defined.
 
 -- Full Traceback ------------------------------------------------------------
@@ -12,8 +12,8 @@ Exception: Sayer 'br' is not defined.
 Full traceback:
   File "game/script.rpy", line 9, in script call
     call ch2_main from _call_ch2_main
-  File "game/script-ch2.rpy", line 605, in script
-    br "stort?,det lyder som pølle ahohohoho sjovt"
+  File "game/script-ch2.rpy", line 612, in script
+    br "arrrh hvad er det du gøre"
   File "C:\Users\Jacob\Desktop\renpy-8.3.4-sdk\renpy\ast.py", line 2579, in execute
     Say.execute(self)
   File "C:\Users\Jacob\Desktop\renpy-8.3.4-sdk\renpy\ast.py", line 581, in execute
@@ -25,4 +25,4 @@ Exception: Sayer 'br' is not defined.
 Windows-10-10.0.19045 AMD64
 Ren'Py 8.3.4.24120703
 A Week Of School 2 1.0.0
-Tue Dec 17 21:27:42 2024
+Wed Dec 18 12:39:33 2024
