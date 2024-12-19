@@ -672,7 +672,456 @@ label ch3_main:
     scene bg hallWay
     "du så vanny er tilbage,men mistet et øje"
     mc "wow,er du okay vanny,hvad er der dog sket med dig?"
+    vanny "jeg ved ikke hvor langtid jeg har"
+    mc "hvad mener du med det?"
+    vanny "jeg tror at glitchtrap vil dræbe mig,han gjor det her mod mig"
+    mc "det jo alvorligt,vi må sige det til rekteren"
+    vanny "tror du det vil hjælpe?,har prøvet,rekteren var ligeglad,så jeg turde ikke at gå i skolen og bliv hjemme"
+    mc "det ikke godt,jeg vil prøve at snakke med ham idag om det"
+    vanny "bare være forsigtig,man ved aldrig hvad han kan finde på"
+    "du rystet i bukserne af det der skete"
+    "og i gik ind til klassen"
+    scene bg class_day
+    "i stod og ventet på læren"
+    h "pls lad det nu ikke være toyfreddy igen,pls skole være sød"
+    "toy freddy kom ind,ej du troet lige var haha,det glitchtrap der kom ind"
+    h "hmm,det heler ikke godt,men det bedre in toy freddy"
+    glitchtrap "godag elver,det længesiden var"
+    h "ikke længe nok"
+    glitchtrap "du skal bare tie stille lille snegl"
+    h "seriøst virkelig?,nu også dig der kalder mig snegl"
+    glitchtrap "det jo klart,du er lille og langsom som en"
+    h "der er bare ikke noget værre in den her skole"
+    glitchtrap "i den her time skal i lærer om hvorfor jeg hader vanny"
+    h "er du seriøs!,hvad lærer vi overhovedt af det!"
+    glitchtrap "vi lære om hvem man bare skal hade"
+    h "men det får vi jo heler ikke noget ud af!"
+    glitchtrap "STILLE SNEGL!"
+    "helpy turde ikke at sige mere,det forstår jeg godt"
+    glitchtrap "når men du kan starte mc,nævn en grund til at jeg hader vanny"
+    mc "er det fordi hun har magiere?"
+    glitchtrap "godt klaret mc,du består"
+    h "kan du ikke komme med noget mere svært næste gang?"
+    glitchtrap "okay,du bedte selv om det"
+    h "endelig,tak"
+    glitchtrap "hvorfor lugter pumbaa?"
+    h "ikke mod mig!"
+    glitchtrap "det sagde jo mine opgaver var for nemme,så nu får du en svær en"
+    h "jeg mente mod de andre ikke mig,jeg får det jo heletiden!"
+    glitchtrap "surt show snegl,men du dumper"
+    h "what!jeg noget jo slet ikke at svare på spørgsmålet!"
+    glitchtrap "og ved du hvorfor du ikke gjor det"
+    h "fordi i alle lærer er trash"
+    glitchtrap "nej fordi du er langsom som en lille taber snegl hahhahaha"
+    glitchtrap "din tur VANNY!"
+    glitchtrap "hvorfor får jeg altid lyst til at smadre dig"
+    vanny "fordi du hader mig"
+    glitchtrap "forkert,fordi jeg hader dig og fordi du bruger magiere"
+    vanny "men du sagde ikke noget om at jeg skulle svare på 2"
+    glitchtrap "det var bare søn VANNY"
+    glitchtrap "din tur svampebob,hvorfor piller folk sig i næsen"
+    sb "bahahaha,du godt nok klam"
+    glitchtrap "WHAT ER DU SINDSYG MAND DU FLABED!,DUMPEEEEEEET!"
+    glitchtrap "så det dig bonnie ponny"
+    fb "behøver i virkelig at kalde mig det heletiden"
+    glitchtrap "ja vi gør,det din nye kæle navn"
+    fb "men jeg vil ikke have det"
+    glitchtrap "TUDEFJÆS TUDEFJÆS!"
+    glitchtrap "SVAR SÅ PÅ SPØRGSMÅLET PONNY!"
+    fb "du har jo ingen gang givet mig nogen,har du hukkomelses tab?"
+    glitchtrap "WHAT HVOR FLABED,DU DUMPET!"
+    fb "hvordan kan jeg dumpe når du ingeng gang har givet mig en opgave at svare på!"
+    glitchtrap "FORDI DU VAR FLABED!"
+    glitchtrap "din tur sayori,hvad gøre vanny så irriterende"
+    s "uuu den er svær,er det fordi at hun praler med sine magiere"
+    glitchtrap "ligepresis sayori,du består,dig og mc er okay"
+    glitchtrap "din tur natsuki,hvorfor gør vanny mig altid så vred?"
+    n "er det fordi at hun er bare irriterende generalt?"
+    glitchtrap "det rigtigt,du består!"
+    glitchtrap "din tur yuri kedeligsen"
+    y "hvorfor synes du at jeg er kedelig?"
+    glitchtrap "lad mig se hmmm,når ja,du er mindre følsom in alle andre,og du er dyster,og klog på den kedelige måde,jeg kunne blive ved heledagen hahaha"
+    y "?????"
+    glitchtrap "når men svare på det her yuri,fortæl mig en god joke"
+    h "hvordan skulle hun kunne gøre det når du lige har nedgjort hinde!"
+    glitchtrap "STILLE SNEGL!"
+    y "okay jeg prøver,bank banke på"
+    glitchtrap "hvem der"
+    y "dumpet"
+    glitchtrap "hmmm,det var en okay joke,for det minder mig om vanny der dumper,du består"
+    glitchtrap "din tur ayano,hvem tror på flæske kongen?"
+    h "okay så nu har vi åbenbart quiz time eller hvad?"
+    glitchtrap "ja,for nu jeg ikke sur på vanny mere"
+    h "det giver ingen menning"
+    ay "tror det er bonnie"
+    glitchtrap "du består"
+    ay "vil i vide hvordan jeg kune vide det?"
+    glitchtrap "nej,vi magter ikke at høre på din kedelige viden"
+    ay "what?"
+    glitchtrap "du er bestået,så hver nu bare glad for DET!"
+    glitchtrap "din tur akira,hvordan ungår man at blive taget med bukserne nede"
+    ak "det ret dulled,man bruger bare et bælte"
+    glitchtrap "forkert"
+    ak "men det holder jo bukserne oppe"
+    glitchtrap "ja men jeg mente det jo ikke bogstavligt,det var et ordsprog du dumper"
+    fx "luuuu bukserne har talt"
+    glitchtrap "tie stille dul!"
+    "glitchtrap kom lige i tanke om at han lyd ret dulled før,og han regnet med at det var vanny der fik ham til det"
+    glitchtrap "UUUUUU DU SÅ OP VANNY!"
+    vanny "what hvad har jeg nu gjort"
+    glitchtrap "SPIL IKKE DUM,DU VED GODT HVAD DU LIGE GJOR!"
+    vanny "?????"
+    glitchtrap "DU FIK MIG TIL AT TALE OM BUKSER,DU SKULLE TIL AT GØRE MIG DULLED"
+    vanny "det vil edtemindste ændre din personlighed"
+    glitchtrap "WHAT VANNY DU SYG I HOVED.JEG NAKKER DIG MAND!"
+    "efter glithtrap kølet ned igen underviste han vidre"
+    glitchtrap "din tur funtimedul,hvad kan gøre en oppustet"
+    fx "luuu bukser"
+    glitchtrap "forkert,du dumper"
+    glitchtrap "du den sidste her saruka,når ja og bedste mor gris,jeg var lige ved at glemme dig"
+    br "ej du,kan du tage dem på ahohoh"
+    fx "luuuu bukser på"
+    br "tag dem på tag tag tag dem på"
+    fx "lulululululu"
+    glitchtrap "når men saruka,hvordan fjerner man en pølle"
+    sa "man skyllder dem ud i toiletet?"
+    glitchtrap "det rigtigt du består"
+    br "ej er der en der pøllet ahhohohoh"
+    glitchtrap "din tur cupcake"
+    br "upser"
+    fx "bukser"
+    glitchtrap "okay hvem er ledren i danmark lige nu"
+    br "ej den er umulig du ahohoh,men jeg tror det er timon"
+    glitchtrap "wow hvor forkert kan man lige værre !"
+    "klokken ringet og i alle havet fri"
+    "du ventet til at de andre gik ud så der kun var dig og glithtrap tilbage"
+    mc "må jeg spøger dig om noget glitchtrap?"
+    glitchtrap "ja selvføgelig"
+    mc "er det ikke lidt for voldigt at skade vanny fysisk?"
+    glitchtrap "åh stakkels forvirret mc,vanny er altså ikke så flink som du tror"
+    mc "jeg forstår det ikke"
+    glitchtrap "det ved jeg,så derfor vil jeg forklare hvorfor at hun har fortjent det"
+    glitchtrap "jeg tror at vanny er en ond trold kvinde,du ved magikere,og hun er ret ond"
+    mc "hvordan ond?"
+    glitchtrap "hun prøvr at kontrolere vores personligheder,og nogen gange prøver hun at skade den her verden med at få det til at craze"
+    glitchtrap "håber du forstår mig"
+    "han kigger på dig som om at han vil høre din menning,hvad vil du svære?"
+    menu:
+        "jeg tror på dig":
+            mc "jeg forstår nu at vanny er den onde,jeg er på din side"
+            glitchtrap "ved du hvad,du en god elev,faktisk min ynglings elev"
+            mc "det jeg glad for at høre,du er min ynglings lærer"
+            glitchtrap "tak,det betyder meget,når men du må heler tage ud,du skal nydig komme sendt hjem"
+            mc "det vil jeg,ses en anden dag"
+            "du gik ud mod clubben"
+        "du for ond mod vanny":
+            glitchtrap "WHAT!,HVORDAN KAN DU VENDE MOD MIG PÅ DEN MÅDE"
+            mc "jeg synes bare at det søn for vanny,og som om at hun har magiere,det giver ingeng menning"
+            glitchtrap "det en skam,du var ellers min ynglings elev"
+            mc "jeg er ked af det,men jeg kan ikke se noget ondt i vanny"
+            glitchtrap "det burde du også at være,nu kom her!"
+            "han kom pludseligt mod dig med en kniv"
+            "du løb væk og lukket døren foran ham og ind i et skab som kan skjule dig fra ham"
+            scene bg school_closet
+            "du begyndte at græde,tudefjæs"
+            mc "det jo klaret når jeg skulle til at dø"
+            "du kunne høre hans fodtrin ikke var der mere,så du kom ud igen"
+            scene bg hallWay
+            "ingen spor af ham,han er nok taget ud af skolen,så du tog mod clubben"
+    scene bg corridor
+    "du så eddy foran dig,han kom hen til dig"
+    eddy "hej"
+    mc "hej eddy,så hvordan er det gået med dig?"
+    eddy "det går meget fint,og hvordan går det med dig i clubben?"
+    mc "det går helt fint"
+    eddy "glæder du dig til at være sammen med monika idag"
+    mc "ja,vent hvor ved du det fra?"
+    eddy "det en hemmelighed,det bedst at du ikke ved det"
+    mc "hvorfor?"
+    eddy "når men hyg dig med monika,jeg skal hjem nu,og husk at pas på med monika,har hørt at hun har noget specielt"
+    "du skulle til at spøger ham om mere,men han er allerede gået"
+    "du gik ind i clubben"
+    scene bg club_day
+    m "hej mc,jeg glæder mig til vores særlig dag"
+    "sagde hun med et lunt smil"
+    mc "tja jeg tror også at det bliver spændene"
+    m "okay her er planen,mig og mc er sammen,sayori og helpy er sammen,og natsuki og yuri er sammen"
+    s "yay det bliver så sjovt helpy"
+    h "normalt vil jeg sige elenlig ikke,men den her gang siger jeg ja,det bliver sjovt"
+    n "lad os bage nogen cupcakes yuri"
+    y "um okay"
+    m "når mc,lad os tage til musikintrument lokalet"
+    mc "god ide"
+    "i gik mod musik lokalet"
+    scene bg classWindow
+    "da i ankom så du de forskelige musik intrumenter"
+    mc "wow der mange intrumenter,det så smukt"
+    m "ja ik,det er her jeg slapper af når jeg har det svært"
+    mc "spiller du så musik her inde"
+    m "ja,vil du høre mig spille klaver"
+    mc "det vil jeg meget gerne"
+    "hun begyndte at spille klaver,det lyd ret smukt"
+    mc "wow du god til det"
+    m "hehe tak,hvor du sød,jeg har øvet mig"
+    "MC og Monika sidder i musiklokalet efter skoletid. Solens stråler skinner ind gennem vinduet og giver rummet en varm glød"
+    "Monika sidder ved klaveret, mens MC sidder med en guitar, han ikke er helt sikker på, hvordan han skal spille"
+    "Monikas smil er beroligende, men der er noget anderledes i luften som om hun er lidt mere opmærksom på MC end sædvanligt."
+    "monika læner sig mod klaveret"
+    m "Okay, MC, lad os prøve igen. Denne gang skal du bare følge akkorderne"
+    m "jeg spiller. Du behøver ikke være perfekt bare følg rytmen"
+    "du kigger nervøst på guitaren"
+    mc "Det er nemt for dig at sige. Du spiller klaver, som om du blev født til det. Jeg… knap nok kan huske, hvordan jeg holder denne her ting."
+    m "Kom nu, du gør det fint! Det handler ikke om perfektion. Musik er en følelse. Hvis du kan mærke det, kan du spille det"
+    "du Kigger op og møder hendes blik"
+    mc "Det lyder smukt. Er det sådan, du ser på musik?"
+    "monika Ser kort ud ad vinduet, men smiler svagt"
+    m "Ja… Musik er som en måde at udtrykke alt det, man ikke kan sige med ord. Det er… ærligt"
+    mc "Det er måske derfor, du er så god til det. Du virker altid så… ærlig."
+    "monika rødmer og kigger lidt væk"
+    m "Det er sødt sagt, MC. Men… ærligt talt, nogle gange føler jeg mig ikke så perfekt, som folk tror, jeg er"
+    "du Sætter guitaren lidt fra dig og læner dig frem"
+    mc "Det er okay, Monika. Ingen forventer, at du skal være perfekt hele tiden. Du er allerede ret fantastisk, bare ved at være dig"
+    "monika Kigger på dig med et blik, der afslører en blanding af taknemmelighed og noget mere"
+    m "Tak, MC… Det betyder meget at høre det fra dig"
+    "du Griner lidt for at lette stemningen"
+    mc "Det er det mindste, jeg kan gøre. Når alt kommer til alt, redder du mig her fra at lyde som en knækket strenget guitar"
+    "monika griner og ryster i bukserne,jeg mener i hovedt"
+    m "Du undervurderer dig selv. Hør, lad os prøve noget nyt."
+    "du løfter et øjenbryn,det lyder mærkeligt"
+    mc "nyt som hvad?"
+    "monika Rykker lidt tættere på og ser dig direkte i øjnene"
+    m "Jeg spiller en simpel melodi, og du improviserer teksten. Ingen pres bare sig, hvad du føler."
+    mc "Sig, hvad jeg føler? Okay, det kan ikke gå galt, vel?"
+    m "Ikke når det kommer fra dig"
+    "Monika begynder at spille en blid melodi på klaveret"
+    "du prøver nervøst at finde ordene, men dine blik bliver hængende på Monika."
+    "Hendes nærvær gør dig rolig, og du begynder langsomt at improvisere. Teksten handler om øjeblikke"
+    "der føles specielle og folk, der gør alting bedre, bare ved at være der"
+    "Da du slutter, er rummet stille. Monika stopper med at spille og ser på dig med et varmt smil"
+    m "Det var… smukt, MC"
+    "du griner akavet"
+    mc "Du mener ikke frygteligt?"
+    "monika ryster i bukserne, Ryster på hovedet"
+    m "Nej. Jeg mener smukt. Du har en måde at sige tingene på, som… rammer lige ind. Jeg tror, jeg kunne lytte til dig hele dagen."
+    "jeres øjne mødes, og der er et øjebliks stilhed mellem jer, fyldt med noget usagt"
+    "men tydeligt. Monika rømmer sig og vender tilbage til klaveret, selvom hun stadig smiler lidt genert"
+    m "Okay, lad os prøve en duet næste gang. Men… kun hvis du lover ikke at overskygge mig med dine tekster"
+    mc "Det lover jeg. Men jeg er sikker på, du altid vil stjæle showet, Monika."
+    "klokken bliv 17:00,så det er lukke tid"
+    mc "øv,nu var det ellers lige så sjovt"
+    m "ja,men vi kan altid være sammen en anden dag"
+    mc "det jo rigtigt nok"
+    "i gik ud til de andre igen"
+    scene bg club_day
+    m "hej så hvordan gik det alle"
+    s "tja mig og helpy har haft det rigtigt sjovt sammen,selv om jeg tabte bukserne heletiden"
+    h "selvføgelig gjor du det"
+    n "og mig og yuri har bagt cupcakesne"
+    y "vi lavet dem i sødme"
+    n "hey,glem nu ikke cool"
+    m "godt i alle har haft det godt,men ses"
+    "de andre gik og monika stoppet dig i at gå"
+    m "jeg vil lige sige noget til dig mc"
+    mc "ja selvføgelig hvad er det?"
+    m "jeg er forælsket i dig,og jeg håber at du vil vælge mig som kærste"
+    mc "jeg kan ikke love noget,men du er en sød ven"
+    m "tak,jeg håber at du vil vælge at være sammen med mig igen i clubben imorgen"
+    mc "vi finder ud af det der,ellers kan vi alle være sammen istedenfor"
+    "i gik ud for at komme ud af skolen"
+    scene bg school
+    "darthjacob kom mod dig da du kom ud af skolen"
+    da "jeg sagde jo at du skulle holde dig væk fra monika"
+    mc "men hun virker så sød"
+    da "det kan godt være,men hun er bogstavligtalt forælset i dig"
+    mc "det ved jeg,hvad der slemt ved det"
+    da "det er ikke det der er slemt,hun er besat af dig,og hvis du vælger hinde vil hun sikkert ingeng gang lade dig værre nogensinde"
+    mc "aldrig?"
+    da "ja aldrig,borset fra at hun vil nok lade dig værre når du skal på wc,men ellers vil hun være meget klistrene"
+    mc "okay,jeg vil prøve at være forsigtig med hinde"
+    da "godt,for du har fortjent en god slutning,du vores ynglings elev"
+    mc "ja borset fra baldi,han hader mig"
+    da "vent what,hvordan kan man hade dig?"
+    mc "for hvert fejl jeg laver,kalder han mig ubruglig og dum og alt muligt ondt"
+    da "WHAT!,DET SKAL HAN IKKE HAVE LOV TIL!"
+    da "jeg snakker med ham om det,jeg vil fyre ham hvis det er nødvendigt"
+    mc "tak,du en god rekter"
+    da "tak,de fleste synes at jeg er skåd og har for mange regler,men du den eneste elev der kan lide mig såden som jeg er"
+    da "også selv om jeg kan være lidt sindyg,når men ses imorgen mc,og husk at komme til tiden som altid"
+    mc "det skal jeg nok ses"
+    "du så ham køre hjem af og du gik tætter på dit hjem"
+    scene bg street
+    "klokken var 18:00,fordi dig og darthjacob snakket i en evighed,"
+    mc "jeg kan bare godt lide at snakke"
+    "det behøver du ikke at fortælle mig"
+    mc "??????"
+    "da den ikke var så mange tog du til byen for at handle"
+    scene bg resturent
+    mc "hmmm,jeg tænker at jeg vil købe noget nemt at lave"
+    "du købte nogen thaibox og noget andet mad så du har til flere dage"
+    "pludseligt kom akira"
+    ak "hej mc,hvor sjovt at jeg lige stødte ind i dig"
+    mc "oh hej akira,godt at se dig"
+    ak "hvorfor gør du det imod mig?"
+    mc "gøre hvad?"
+    ak "du altid sammen med de andre piger,men du vælger aldrig mig,kan du ikke lide mig"
+    "hun begyndte at græde,tudefjæs"
+    mc "hey jeg kan godt lide dig,det bare svært når i alle vil være sammen med mig"
+    ak "og derfor holder du mig ude?"
+    mc "undskyld akira,hør hvad siger du til at tage med mig hjem?"
+    "hun begyndte at smile igen og så flirtene ud igen"
+    ak "det vil jeg meget gerne,tak mc"
+    "i gik sammen til dit hjem"
+    scene bg kitchen
+    ak "wow så det her er dit køkken,meget smukt"
+    mc "tak,jeg er glad for at du kan lide det"
+    "i begyndte at lave nogen thaibox,2 til hver"
+    ak "det så sødt af dig at dele din mad med mig,du er bare sød"
+    mc "tak,du også en god ven"
+    "i gik ind i stuen for at se en film,og selvføgelig ser du altid den mærkelige og kedelige film"
+    scene bg livingroom
+    "i spiste jeres mad færdigt og talte lidt,husk at klokken nu er 20:00 batman"
+    ak "Det er så rart, at du lod mig komme til dig i dag, MC. Jeg har ventet hele ugen på at tilbringe tid med dig"
+    mc "Heh, ja. Det er også rart at hænge ud.det er hyggeligt"
+    "akira Læner sig lidt tættere på"
+    ak "Hyggeligt? Åh, MC, du behøver ikke være så beskeden. Du kan sige, det er specielt, når jeg er her. Alt føles bedre med dig"
+    "du griner akavet"
+    mc "Det er… virkelig sødt sagt, Akira. Jeg mener det. Men jeg er sikker på, du siger det til alle"
+    "Hendes øjne bliver skarpe i et øjeblik"
+    "men hun genfinder hurtigt sit smil"
+    ak "Alle? Som om nogen andre kunne få mig til at føle sådan her. Det er kun dig, MC"
+    "du prøver at ændre emnet"
+    mc "Heh, så… har du noget nyt på programmet i denne uge? Noget sjovt, måske?"
+    "akira Læner sig tilbage, men holder stadig øjnene på dig"
+    ak "Hmmm, ikke rigtig. Det eneste, jeg tænker på, er, hvordan jeg kan bruge mere tid med dig"
+    ak "Skolen er sådan et spild af tid, ikke? Vi kunne lave så mange andre… mere interessante ting"
+    mc "Jo, skolen er ret krævende, men det er vigtigt. Og hey, vi hænger jo ud nu, ikke? Det er ret fedt"
+    "akira Leger med en lok af sit hår og smiler næsten drilsk"
+    ak "Det er det, ja. Men nogle gange føler jeg, at du… ikke ser, hvor meget jeg gør for at få vores tid sammen til at ske"
+    mc "Hvad mener du"
+    ak "Åh, ingenting. Bare… at jeg sørger for, at folk ikke afbryder os. Som tidligere i dag"
+    ak "en eller anden pige prøvede at tale med dig efter klasse, ikke? Hun virker så… irriterende"
+    "du bliver lidt anspændt"
+    mc "Åh, du mener… monika? Hun spurgte bare om lektierne. Der var ikke noget særligt"
+    "akira Lænende sig tættere på og kigger dig direkte i øjnene"
+    ak "Du er så naiv, MC. Jeg ved, hvad piger som hende tænker. Men du skal ikke bekymre dig"
+    ak "jeg skal nok sørge for, at hun holder sig på afstand"
+    "du smilte nerøvst"
+    mc "Akira, det lyder… lidt overdrevet. Jeg er sikker på, at hun ikke mente noget med det"
+    "Hendes smil bliver større, men hendes øjne forbliver intense"
+    ak "Måske. Men hvorfor tage chancer, når jeg kan beskytte dig? Ingen forstår dig, som jeg gør, MC"
+    ak "og ingen vil passe på dig som mig"
+    "du prøver at aflede igen"
+    mc "Det er virkelig… sødt af dig, Akira. Men hey, lad os tale om noget sjovere. Har du set den nye serie, alle taler om?"
+    "akira Kigger på dig et øjeblik og skifter derefter tone"
+    ak "Åh, du mener Crimson Hearts? Ja, den er ret god. Selvom hovedpersonen minder mig lidt om dig"
+    ak "han har den der måde at få alle til at stole på ham, uden han selv er klar over det. Det er… fascinerende"
+    mc "Heh, det lyder som en fed karakter. Måske skulle jeg tjekke den ud"
+    "akira Smiler blidt, men hendes stemme har stadig en undertone"
+    ak "Måske kunne vi se den sammen næste gang. Jeg kunne godt lide at have dig her lidt længere. Bare os to"
+    mc "det kunne vi godt,hvad siger du til tirsdag?"
+    ak "det vil være perfekt"
+    "hun begyndte at kramme dig"
+    "klokken var nu 22:00,nu skal i putte putte"
+    ak "må jeg sove her?"
+    mc "tja det ret sendt nu,jeg kan vise dig vejen til gæste værelset"
+    ak "jeg tænkte på om jeg kunne sove hos dig"
+    mc "men det ikke fordi vi er kærster"
+    ak "derfor kan vi da stadig sove sammen fjolle,vi venner"
+    mc "men jeg har slet ikke 2 senge"
+    ak "men jeg vil så gerne sove med dig"
+    "hun virket besat"
+    mc "beklager du må sove i gæste værelset"
+    ak "okay fint,vis mig vej"
+    "du viste hinde vejen der over"
+    scene bg door
+    mc "det er her inde"
+    ak "aligevel,tak for idag mc,det har været en hyggelig aften"
+    mc "det var så lidt,hvad har man venner til"
+    ak "hehe så sandt,godnat søde"
+    "du gik op til dig selv og sov"
+    scene bg bedroom_evil
+    "der var nogen uhyggelige røde øjne et sted,men du var så træt da den er 23:00 at du slet ikke ligget mærke til det"
+    "du faldte i søvn,og du hørte nogen hviske"
+    ak "jeg vil altid være ved din side"
     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+
+
+
+
+
+
+    
+
 
 
 

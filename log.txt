@@ -1,12 +1,12 @@
-2024-12-19 18:05:50 UTC
+2024-12-19 19:32:58 UTC
 Windows-10-10.0.19045
 Ren'Py 8.3.4.24120703
 
 Early init took 0.09s
 Loading error handling took 0.03s
-Loading script took 0.30s
+Loading script took 0.32s
 Loading save slot metadata took 0.14s
-Loading persistent took 0.00s
+Loading persistent took 0.01s
 Running init code took 0.09s
 Loading analysis data took 0.01s
 Analyze and compile ATL took 0.03s
@@ -31,7 +31,7 @@ Prepare screens took 0.04s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.03s
 Running _start took 0.00s
-Interface start took 0.06s
+Interface start took 0.07s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
