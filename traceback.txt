@@ -1,19 +1,19 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 9, in script call
-    call ch2_main from _call_ch2_main
-  File "game/script-ch2.rpy", line 817, in script
-    br "når men jeg må heler smutte nu,der nogen jeg lige skal få til at kede sig ved at ikke at lave noget ahohohoh"
+  File "game/script.rpy", line 10, in script call
+    call ch3_main from _call_ch3_main
+  File "game/script-ch3.rpy", line 325, in script
+    br "men ikke en sø fuld af sodavand og den mindste der smager af salt"
 Exception: Sayer 'br' is not defined.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 9, in script call
-    call ch2_main from _call_ch2_main
-  File "game/script-ch2.rpy", line 817, in script
-    br "når men jeg må heler smutte nu,der nogen jeg lige skal få til at kede sig ved at ikke at lave noget ahohohoh"
+  File "game/script.rpy", line 10, in script call
+    call ch3_main from _call_ch3_main
+  File "game/script-ch3.rpy", line 325, in script
+    br "men ikke en sø fuld af sodavand og den mindste der smager af salt"
   File "C:\Users\Jacob\Desktop\renpy-8.3.4-sdk\renpy\ast.py", line 2579, in execute
     Say.execute(self)
   File "C:\Users\Jacob\Desktop\renpy-8.3.4-sdk\renpy\ast.py", line 581, in execute
@@ -25,4 +25,4 @@ Exception: Sayer 'br' is not defined.
 Windows-10-10.0.19045 AMD64
 Ren'Py 8.3.4.24120703
 A Week Of School 2 1.0.0
-Wed Dec 18 15:34:55 2024
+Wed Dec 18 21:54:53 2024
