@@ -335,7 +335,409 @@ label ch3_main:
     scene bg theater
     "i ankom til theateret"
     f "okay små børn,nu vil jeg dele jeres roller op"
+    f "helpy du skal spille som gagamel"
+    h "seriøst!,hvorfor skal jeg have den skåd rolle!"
+    f "fordi det passer til dig"
+    h "what!"
+    f "mc du skal være ridderen"
+    mc "nice tak,jeg skal gøre mit bedste"
+    f "ja det skal du,for det her skal være perfekt!"
+    f "og akira er prinsesen"
+    ak "waow hvor romantisk,jeg glæder mig til kysset mc"
+    "det tydeligt at hun flirter med dig"
+    f "og i alle andre skal spille som smølferne"
+    s "yay,jeg kan være en nuttet smølf"
+    f "okay?,når men i må godt gå til opklædrings rummet,og her er jeres kustymer"
+    h "hvor er mit kustyme?"
+    f "du behøver ikke nogen kustyme,dit grimme udsennde passer dig perfekt som gagamel haha haaaaaa "
+    h "what det flabed!"
+    f "stille snegl!"
+    h "værste skole nogensinde"
+    f "når i må godt klæde jer om nu"
+    "i gik ud til opklædrings rummet"
+    scene bg costume
+    "i kunne se at funtime foxy kigget på bukser,og sayori kigget efter et bælte fordi hun taber bukserne"
+    "akira kom hen til dig"
+    ak "skal jeg hjælpe dig med at finde et ridder kustyme?"
+    mc "jeg tror at jeg har styr på det,men tak"
+    ak "hm okay,jeg går ud og skifter til en smuk kjole,jeg vil sikkert blive mere udmåståelig"
+    "hun gav dig et kærligt blik og gik mod opklædring rummet"
+    scene bg changing_room
+    "du begyndte at prøve at få ridder kustymet på"
+    mc "whø hvor irriterende,de her ridder bukser er for store,jeg har brug for et bælte"
+    "du kunne ikke finde et bælte"
+    "pludseligt kunne du høre akiras stemme der ude"
+    ak "har du brug for hjælp?"
+    mc "bare bukserne der er lidt for store"
+    ak "hehe jeg henter et bælte til dig"
+    "du ventet i lidt tid og følte at det var lidt pinligt"
+    mc "hvad skal jeg så gøre når hun kommer tilbage?"
+    "du kunne lade hinde komme ind så hun kan give dig bæltet?"
+    mc "nej tak,det virker for akavet når mine bukser glider ned"
+    mc "wow,det godt nok dulled faktisk"
+    "det er ret dulled faktisk ja"
+    "du kunne høre at akira kom tætter på"
+    ak "jeg har fundet et bælte til dig mc,må jeg komme ind?"
+    menu:
+        "ja":
+            ak "okay nu kommer jeg"
+            "akira gik ind og hjalp dig med at få bæltet på"
+            ak "sådan nu skulle dine bukser meget gerne blive oppe"
+            mc "det føles ret pingligt på en måde,men tak"
+            ak "det var sålidt,jeg vil gøre alt for en smuk dreng som dig"
+            mc "vi burde nok at gå ud nu"
+            ak "ja du har ret"
+            "i gik ud af rummet"
+        "nej":
+            ak "okay øv,men hvordan skal jeg så give dig bæltet?"
+            mc "bare skub den her ind"
+            ak "okay"
+            "hun skubbet bæltet ind i rummet du var i"
+            mc "tak akira"
+            ak "det var sålidt søde mc,jeg venter på dig her ude"
+            "du tog bæltet på og gik ud af rummet"
+    scene bg costume
+    "da du gik ud så du akria i en fin blå kjole"
+    ak "når hvas synes du kære?"
+    mc "det passer dig godt"
+    ak "tak søde,hvordan går det med bukserne"
+    mc "det går helt fint,og tak for hjælpen"
+    ak "det var sålidt søde mc"
+    mc "um,hvorfor bliver du ved med at kalde mig søde eller smukke?"
+    ak "det fordi jeg elsker dig fjolle hehe"
+    mc "men vi er jo bare venner"
+    ak "det ved jeg,men før eller siden vil du vælge en kærste,det en del af spillet"
+    mc "vent hvordan ved du hvad der vil ske?"
+    ak "det finder du ud af senere,men lige nu skal vi fukusere på nuet"
+    s "um mc,jeg taber bukserne,og har stadig mit bælte der hjemme fordi jeg ikke noget at tage det på i morges som du sikkert husker"
+    "du kunne se at sayori holdte på sine bukser og smilte helt flovt"
+    ak "der er bælter over til højre der"
+    s "tak akira"
+    ak "det var da sålidt"
+    "sayori gik mod til højre mens hun trak bukserne op flere gange og ledte efter et bælte"
+    "efter i alle bliv færdige med at tage jeres kustymer på gik i ud til freddy"
+    scene bg theater
+    fx "luuuu jeg har lige fået bukser på"
+    f "du ret dulled men okay,godt i alle er klædt på"
+    f "nu skal i bare øve jer,og huske det skal gå som jeg har planlagt det,forstået!"
+    "i alle nikket ja til freddy"
+    f "godt,okay til at starte med skal i smølfer opføre jer som nogen er glade,og husk at i skalsynge smølfe sangen"
+    "de begyndte at synge smølfe sangen mens de gik rundt og fik det til at lige at de arbejdet"
+    f "perfekt,og så det nu at du skal træde ind helpy som den onde gagamel, og du skal virke ondskabsfuld"
+    h "hahaha jeg er den fæle troldmand gagamel,nu skal jeg fange jer smølfer"
+    f "nice,jeg sagde jo du passet perfekt til at være den grimme troldmand haha"
+    f "og nu skal jer som spiller smølferne gå i panik og få det til at se rigtig dramatisk ud"
+    "de begyndte at gå i panik"
+    f "godt perfekt,og nu skal i så prøve at finde ridder mc"
+    sa "jeg har en ide,kom med mig smølfer,vi må skynde os og lede efter ridder jacob som kan besjere den onde gagamel,og at rede os og prinsesen"
+    f "NEJ!,det smukke prinsse du skulle sige øjj!"
+    sa "vi må skynde os og lede efter ridder jacob som kan besjere den onde gagamel og at rede den smukke prinsesse"
+    f "godt,og nu er i kommet til ridderen,og nu skal du mc virke moden og følge den manoskrift jeg har givet dig"
+    mc "hvad er der sket små smølfe venner"
+    sa "åh store mægtige ridder,hjælp os med at stoppe den fæle gagamel,han har fanget nogen af vores smølfer og den smukke prinssese"
+    mc "frygt ej mine små venner,jeg vil hjælper jer med at besejre den fæle troldmand og befire jeres venner og min smukke prinssese"
+    f "godt klaret,og nu er vi kommet til den store finale!,det er nu at gagamel og ridder mc mødes angsigt til ansigt og skulle kæmpe"
+    f "og husk det til døden"
+    h "vent hvad!,er du sindsyg!"
+    f "jeg mente ikke at i vil dø bogstavligt dumme snegl!"
+    mc "du vil nu blive beseret fælde gagamel,giv op eller mærk min vrede"
+    h "haha,tror du virkelig at du kan stoppe mig,jeg er den mægtige gagamel"
+    mc "vi får se"
+    f "i kæmpet mod hindaen og det endte med at mc besejret gagamel,den grimme troldmand"
+    h "behøver du virkelig at kalde mig grimme"
+    f "hold dig til manoskriftet!"
+    h "oh nej du har besjeret mig"
+    mc "du vil nu dø for retfærdigheden"
+    f "ridder mc svinget sit svære og stak den ned på grimme gagamel"
+    h "arrrrrh,edvak"
+    f "nu befriet ridderen smølferne og den smukke prinsese"
+    s "tusind tak for at rede os trapper ridder,vi smølfer er evig taknemmelige"
+    mc "tak,jeg er glad for at kunne hjælpe"
+    ak "min helt"
+    f "det nu at i skal kysse,men kun et lille et,forstået!"
+    "i begyndte at kysse lidt og akira bliv så glad for det en eller anden grund"
+    f "godt så skal i gøre det igen snart,"
+    h "og hvad mener du med det?"
+    f "øjjj helpy,du forstår bare heler ikke noget vel!"
+    h "trash skole"
+    f "der kommer nemlig snart publikum,og der skal i gøre som i lige har øvet,men der lige en fejl du begik sakura"
+    sa "um hvad er det?"
+    f "du kaldte ridderen for jacob!,han hedder altså ridder mc!"
+    sa "åh det må du undskylde freddy"
+    f "det okay,bare husk at hold dig til mit manoskrift"
+    h "det virket ellers som om at du mente det surt"
+    f "bland dig udenom snegl!"
+    h "hvordan gik det overhovedt til at jeg gik i den her trash skole"
+    "efter noget tid kom publikummet"
+    f "godt de er kommet nu,okay start som i øvet"
+    "i gjor jer forberet på at freddu siger til"
+    f "klar og action!"
+    "i gik i gang med jeres rolle spil foran en masse mennesker og animatronics selvføgelig"
+    "det bliv et meget spændene theater stykke,og publikummet hjuplet"
+    "helt tilsidst da du som ridder stoppet den onde troldmand,befriet du smølferne og prinsesen"
+    "smølferne takket dig,og dig og prinsessen kysset,og publikummet blivet helt rørt"
+    f "i gjor det så flot små børn,nu må i godt tage til opklædens rummet og få jeres kustymer af"
+    fx "luuu jeg har ikke lyst til at tage bukserne af"
+    fb "det lyd ret akavet"
+    fx "luuuuu"
+    f "du skal tage bukserne af!,det er ikke dine,det skolens!"
+    fx "luuu,så bliver jeg halv nøjen"
+    f "hvad snakker du om,robotter går normalt ikke i bukser!,og det var ingeng gang menningen at du skulle tage dem på"
+    fx "skal jeg tage dem af her?"
+    f "nej din spasser!,du skal gøre det i prøve rummet dumme dul!"
+    "i gik alle hen til tøj rummet"
+    scene bg costume
+    ak "det var et smukt øjeblik mc"
+    "hun kigger forælsket på dig"
+    mc "heh,det var jo bare skuespil angåene kysset"
+    ak "er du sikker på at det ikke var begrund af noget andet også"
+    "hun gav dig et kærligt blik"
+    mc "jeg er sikker"
+    ak "åh søde søde mc,altids så kosbar,jeg kan lide det"
+    mc "okay jeg går ind og tager det her rustning af nu"
+    ak "fint nok,jeg skal vist også have den her kjole af"
+    "du gik ind i prøve rummet"
+    scene bg changing_room
+    "du begyndte at tage din kustyme af"
+    mc "puha det var godt nok varmt med den ridder kustyme"
+    "det jo klart,du havet jo 2 par bukser på"
+    mc "okay du ret dulled lige nu"
+    "er jeg?"
+    mc "ja,lige før"
+    "du har ret,jeg var ret dulled,måske er det en dulle mod du spiller lige nu"
+    mc "hvorfor er der så mange der kalder det her for et spil?"
+    "jeg ved ikke hvorfor de andre gør det,når jo det ved jeg,for jeg ved alt om jer"
+    mc "det lidt creepy"
+    "creeper,oh mand"
+    mc "??????"
+    "jeg kan fortælle dig at grunden til at vi siger at det er et spil er bare for at drille dig"
+    mc "arh okay,så forstår jeg det bedre"
+    "eller mener vi det faktisk hmmmmm,en gåde"
+    mc "okay,kan vi komme vidre"
+    "det var flabet sagt"
+    mc "??????"
+    "du gik ud af prøve rummet og mødtes med sayori og akira"
+    scene bg costume
+    ak "hej mc,min smukke ridder"
+    s "eh,hvordan kan du vide om det ikke er mig han elsker?"
+    ak "fordi han elsker mig"
+    mc "det har jeg aldrig sagt at jeg gjor"
+    ak "men vi kyssede før"
+    mc "fordi det var en del af theateret"
+    ak "var det nu det hmmm"
+    s "lad os gå mc,det her føles forkert"
+    ak "fint,bare vent til fredag,der skal han nok vælge mig som kærste,vent at se!"
+    "hun gik væk fra jer"
+    s "er du okay mc?"
+    mc "jeg klare den,jeg har dig"
+    "hun bliv helt glad og rødmet af det"
+    s "jeg er også glad for at jeg har dig,faktisk så håber jeg at det bliver mig som bliver din kærste hehe"
+    mc "jeg kan ikke love noget,men vi får at se hvad der sker den dag hvor jeg skal vælge en kærste,som jeg en eller aden grund er tvunget til"
+    "hun kigget forvirret og smilte igen bagefter"
+    mc "men du ved godt at det bælte du bruger nu er skolens ik?"
+    s "når ja,jeg lånte det bare for at ungå at tabe bukserne foran hele folket"
+    mc "men du nok nød til at aflevere det igen"
+    s "hvor nederen,så må jeg bare leve med at tabe bukserne"
+    mc "sker det virkelig så ofte?"
+    s "ja,jeg taber bukserne heletiden,det mega irriterende faktisk"
+    mc "godt at du kan bruge dit eget imorgen så"
+    s "hehe ja,for den her dag er ret pinlig for mig"
+    "en eller anden grund bliv hun helt flov"
+    "hun tog bæltet af og lagte det tilbage"
+    "i gik sammen og undervejs glid sayoris bukser ned heletiden mens hun trak dem konstant op"
+    scene bg theater
+    f "godt,nu skal vi bare have spise pause"
+    fx "haha,prøv at se sayori,hun taber bukserne heletiden llululululu"
+    f "stille dul!"
+    fx "luuu men hun"
+    f "NEJ STOP JEG MENER DET,INGENG GIDER AT HØRE PÅ DIN DULLEDE KOMMENTAR!"
+    s "tak freddy"
+    f "det var sållidt,jeg magter ikke at skulle høre på hindes dullesnak"
+    h "det første gang at jeg er enig med freddy"
+    f "når men jeg vil tage til lære værelset og få noget at spise,tag hen til katinen elever"
+    "i alle tog til katinen,og hen til chica for at bestille"
+    scene bg cantineIdle
+    chica "hej,hvad vil du bestille idag?"
+    "nu skal du vælge mad,hvis du ikke viste det"
+    mc "jeg viste det godt,jeg hørte hinde selv"
+    menu:
+        "pasta med kethub 25kr":
+            chica "det bliver 50kr"
+            "du gik over til katinen for at spise"
+        "salat med kylling 30kr":
+            chica "det bliver 60kr"
+            "du gik til katinen for at spise"
+        "pizza med kebab 100kr":
+            chica "det bliver 200kr"
+            "du bruger mange penge"
+            "du gik over til katinen for at spise"
+    scene bg in_cantine
+    "du gik over til de andre og spiste,"
+    mc "hmmmm,hvem skulle jeg mon spise sammen med idag?"
+    menu:
+        "sayori":
+            "du gik mod sayori"
+            "sayori griner lidt for sig selv"
+            s "Okay, MC, jeg har en historie, der vil få dig til at tabe din mad!"
+            "du kigger op fra din bakke"
+            mc "Åh nej, hvad nu? Er det endnu en af dine… episke Sayori-historier?"
+            "sayori nikker ivrigt"
+            s "Du ved det! Hør her! Så… det var den der ene gang, hvor jeg havde travlt på vej til skole… Jeg havde lidt for travlt, faktisk"
+            "du løfter et øjebryn,hvorfor taler jeg så mrækeligt?"
+            mc "hvor travlt?"
+            "sayori bliver helt rød i kinderne,men griner stadig"
+            s "Så travlt, at jeg glemte at binde min bukser ordentligt!"
+            "du stopper midt i at tage en bid"
+            mc "åh nej,hvad er der sket?"
+            "sayori klapper i hænderne sammen og ler højt"
+            s "De faldt ned, MC! Lige foran butikken, hvor ALLE kunne se det! Jeg stod bare der med min skoletaske, og så… BAM! Bukserne nede om anklerne"
+            "du prøver at holde et grin tilbage"
+            mc "og hvad gjorte du så?"
+            "sayori ligger hovedt på skrå og smiler bredt"
+            s "Hvad tror du? Jeg samlede dem op og råbte: 'Det er en ny mode! I burde prøve det!' Og så løb jeg væk"
+            "du griner højt,hvor er i bare dulled"
+            mc "Det lyder så meget som dig, Sayori. Hvordan er du så… afslappet over det nu?"
+            s "Hvorfor ikke? Jeg mener, det var pinligt, men det er også ret sjovt, når jeg tænker tilbage på det! Hvis jeg ikke kan grine af det, hvad kan jeg så gøre?"
+            mc "Du har en måde at gøre alting mindre alvorligt på. Det er faktisk ret imponerende."
+            s "Det er fordi jeg ved, at livet er for kort til at bekymre sig om småting! Plus, når jeg deler historien, får jeg også dig til at grine og det gør det hele det værd!"
+            mc "Okay, Sayori. Du vinder. Men næste gang, så husk at tjekke dit tøj, inden du løber ud af døren."
+            s "Aftale! Men hvis det sker igen, så har jeg i det mindste endnu en sjov historie at fortælle!"
+            "klokken ringet og i skulle til klassen"
+            mc "det var ellers så hyggeligt og dulled"
+            s "haha ja,men næste gang skal jeg nok huske mit bælte"
+            "i gik ud til skole gangen"
+        "helpy":
+            "du gik over til helpy"
+            mc "hey helpy er du okay?"
+            "helpy trækker skuldren uden at se op"
+            h "Tja… så okay, som det kan være, når verden hader én."
+            mc "hvad skete der nu?"
+            h "Lad os se… Første time var en katastrofe. Læreren bad mig om at læse højt, og selvfølgelig snublede jeg over ordene"
+            h "Alle grinede. Derefter smed jeg min penalhus ned på gulvet… igen. Og for at gøre det værre"
+            h "så tog læreren mig til side og sagde, at jeg 'burde gøre en større indsats'"
+            "du kigger alvorligt på ham"
+            mc "Det lyder hårdt. Men det er ikke fair, at læreren siger sådan til dig. Du prøver jo."
+            h "Måske… Men det føles bare som om, jeg ikke er god nok. Og hvad er pointen i at prøve, hvis det aldrig bliver bedre?"
+            "du rykker din stol tætter på ham"
+            mc "Helpy, jeg ved, det føles sådan lige nu, men det er ikke sandt. Du er god nok. Måske har du bare haft en rigtig dårlig dag"
+            mc "eller uge. Men det betyder ikke, at det altid vil være sådan."
+            "helpy ser op med et svagt smil"
+            h "Du lyder næsten som en motiverende bog, du ved det godt, ikke?"
+            "du griner blidt"
+            mc "Måske, men det betyder ikke, det ikke er sandt. Hey, hvad siger du til, at vi finder noget, der kan få dig til at grine? Noget til at lette humøret lidt."
+            "helpy trækker på skuldren,lyder underligt hvis du spøger mig"
+            h "Som hvad? Jeg er ikke så god til at have det sjovt, husker du?"
+            mc "Okay, hvad med det her"
+            mc "Efter vi har spist, så prøver vi at slå en verdensrekord i… at stable plastikkopper."
+            mc "Eller… vi kan finde på en virkelig dårlig vittighed, der er så dum, at den får os begge til at grine."
+            "helpy kan ikke lade være med at smile"
+            h "Du er virkelig dårlig til at finde på ideer, men… måske hjælper det. Bare lidt"
+            mc "Så det er en aftale. Og husk, Helpy selvom du har uheldige dage, betyder det ikke, at du er alene om at klare dem. Jeg er her"
+            "helpy kigger væk med let røde kinder"
+            h "Du lyder skør. Men… tak."
+            "klokken ringet og i skulle til den sidste time"
+            h "okay så længe det ikke er toy freddy,så klare jeg den"
+            mc "ja toy freddy er skåd,lad os tage til time"
+            "i kom mod gangen"
+        "natsuki":
+            mc "Så… hvad har du med i dag? Noget fancy? Eller er det en af dine 'jeg havde travlt'-madpakker?"
+            "natsuki Kigger hurtigt væk, men man kan se, at hun smiler lidt"
+            n "tsk, hvorfor skulle det interessere dig? Det er bare ris og grøntsager. Ikke noget særligt"
+            "du læner dig frem,det kunne være sjovt hvis du faldt og slog dig"
+            mc "Det lyder ret sundt. Helt anderledes end min kedelige sandwich"
+            "natsuki Kigger på hans mad og sukker"
+            n "Selvfølgelig spiser du en sandwich. Så standard."
+            mc "Hvad kan jeg sige? Jeg er en simpel fyr med simple behov"
+            "natsuki ruller med øjnene"
+            n "Simpel er en pæn måde at sige kedelig på."
+            "du Lader som om han er såret,sikkert bare for at se hindes bløde side"
+            mc "Av, Natsuki. Jeg troede, vi var venner."
+            "natsuki rødmet lidt,se selv efter,hvor er jeg bare sjov til at drille hinde"
+            n "Hvem sagde, vi ikke er venner? Jeg mener bare, du kunne prøve lidt hårdere, når det kommer til mad"
+            n "Bare fordi du ikke kan lave noget, betyder det ikke, du skal spise noget så… kedeligt."
+            mc "Så hvad foreslår du? Skal jeg begynde at bage cupcakes som dig"
+            "natsuki Sætter maden fra sig og ser på dig"
+            n "Hmpf, som om du nogensinde kunne gøre det lige så godt som mig"
+            n "Men det ville i det mindste være bedre end den her… sandwich-ting"
+            mc "Okay, udfordring accepteret. Næste gang skal vi lave noget sammen, og så ser vi, hvem der laver det bedste"
+            "natsuki Ser overrasket ud et øjeblik, men skubber hurtigt smilet væk"
+            n "tsk, det er spild af tid. Men… hvis det betyder, jeg kan vise dig, hvor dårlig du er, så fint. Bare vær klar til at tabe."
+            mc "Vi får se. Men hvis jeg vinder, skylder du mig en cupcake."
+            "natsuki Kigger væk og gemmer sit smil"
+            n "Som om det nogensinde ville ske. Men… okay. Aftale. Bare ikke begynd at græde, når jeg slår dig"
+            "i kunne høre klokken ringe"
+            mc "okay hvad siger du til at vi prøver at bage sammen igen på mandag?"
+            n "det kan vi godt,men kom så,vi skal til time"
+            "i gik mod gangen"
+    scene bg hallWay
+    "du så vanny er tilbage,men mistet et øje"
+    mc "wow,er du okay vanny,hvad er der dog sket med dig?"
     
+
+
+
+
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+        
+
+
+
+
+        
+
+        
+        
+        
+            
+        
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
 
     
 
