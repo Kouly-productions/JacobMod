@@ -2,9 +2,17 @@
 errors listed below, and try again.
 
 
-File "game/script-ch2.rpy", line 696: is not terminated with a newline. (Check strings and parenthesis.)
-(Perhaps you left out a " at the end of the first line.)
-        "i tog ud og hen mod litteltur clubben
+File "game/script-ch4.rpy", line 510: menu statement expects a non-empty block.
+    menu:
+        ^
+
+File "game/script-ch4.rpy", line 511: expected statement.
+    "sayori":
+            ^
+
+File "game/script-ch4.rpy", line 541: expected statement.
+    "natsuki":
+             ^
 
 Ren'Py Version: Ren'Py 8.3.4.24120703
-Tue Dec 17 21:23:54 2024
+Fri Dec 20 16:00:11 2024

@@ -1,10 +1,10 @@
-2024-12-19 21:07:28 UTC
+2024-12-20 15:31:18 UTC
 Windows-10-10.0.19045
 Ren'Py 8.3.4.24120703
 
 Early init took 0.09s
 Loading error handling took 0.03s
-Loading script took 0.36s
+Loading script took 0.29s
 Loading save slot metadata took 0.14s
 Loading persistent took 0.01s
 Running init code took 0.09s
@@ -20,7 +20,7 @@ Initial gc took 0.04s
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object took 0.27s
+Creating interface object took 0.25s
 Cleaning stores took 0.00s
 Init translation took 0.04s
 Build styles took 0.00s
@@ -31,7 +31,7 @@ Prepare screens took 0.04s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.03s
 Running _start took 0.00s
-Interface start took 0.10s
+Interface start took 0.06s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
@@ -45,3 +45,63 @@ Screen sizes: virtual=(1280, 720) physical=(1920, 1017) drawable=(1920, 1017)
 Maximum texture size: 4096x4096
 Screen sizes: virtual=(1280, 720) physical=(1920, 1017) drawable=(1920, 1017)
 Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 11, in script call
+    call ch4_main from _call_ch4_main
+  File "game/script-ch4.rpy", line 444, in script
+    br "det må være timon,ahohohoh"
+  File "C:\Users\Jacob\Desktop\renpy-8.3.4-sdk\renpy\ast.py", line 2579, in execute
+    Say.execute(self)
+  File "C:\Users\Jacob\Desktop\renpy-8.3.4-sdk\renpy\ast.py", line 581, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\Jacob\Desktop\renpy-8.3.4-sdk\renpy\ast.py", line 470, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'br' is not defined.
+
+While running game code:
+  File "game/script.rpy", line 11, in script call
+    call ch4_main from _call_ch4_main
+  File "game/script-ch4.rpy", line 444, in script
+    br "det må være timon,ahohohoh"
+Exception: Sayer 'br' is not defined.
+
+Full traceback:
+  File "game/script.rpy", line 11, in script call
+    call ch4_main from _call_ch4_main
+  File "game/script-ch4.rpy", line 446, in script
+    br "jeg er ellers en cupcake ikke skræld ahhohoho,men måske vil jeg gerne spise det"
+  File "C:\Users\Jacob\Desktop\renpy-8.3.4-sdk\renpy\ast.py", line 2579, in execute
+    Say.execute(self)
+  File "C:\Users\Jacob\Desktop\renpy-8.3.4-sdk\renpy\ast.py", line 581, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\Jacob\Desktop\renpy-8.3.4-sdk\renpy\ast.py", line 470, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'br' is not defined.
+
+While running game code:
+  File "game/script.rpy", line 11, in script call
+    call ch4_main from _call_ch4_main
+  File "game/script-ch4.rpy", line 446, in script
+    br "jeg er ellers en cupcake ikke skræld ahhohoho,men måske vil jeg gerne spise det"
+Exception: Sayer 'br' is not defined.
+
+Full traceback:
+  File "game/script.rpy", line 11, in script call
+    call ch4_main from _call_ch4_main
+  File "game/script-ch4.rpy", line 474, in script
+    br "ups du,det må være pingligt,ligesom timon ahoho"
+  File "C:\Users\Jacob\Desktop\renpy-8.3.4-sdk\renpy\ast.py", line 2579, in execute
+    Say.execute(self)
+  File "C:\Users\Jacob\Desktop\renpy-8.3.4-sdk\renpy\ast.py", line 581, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\Jacob\Desktop\renpy-8.3.4-sdk\renpy\ast.py", line 470, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'br' is not defined.
+
+While running game code:
+  File "game/script.rpy", line 11, in script call
+    call ch4_main from _call_ch4_main
+  File "game/script-ch4.rpy", line 474, in script
+    br "ups du,det må være pingligt,ligesom timon ahoho"
+Exception: Sayer 'br' is not defined.

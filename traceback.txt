@@ -1,19 +1,19 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 10, in script call
-    call ch3_main from _call_ch3_main
-  File "game/script-ch3.rpy", line 794, in script
-    br "ej den er umulig du ahohoh,men jeg tror det er timon"
+  File "game/script.rpy", line 11, in script call
+    call ch4_main from _call_ch4_main
+  File "game/script-ch4.rpy", line 474, in script
+    br "ups du,det må være pingligt,ligesom timon ahoho"
 Exception: Sayer 'br' is not defined.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 10, in script call
-    call ch3_main from _call_ch3_main
-  File "game/script-ch3.rpy", line 794, in script
-    br "ej den er umulig du ahohoh,men jeg tror det er timon"
+  File "game/script.rpy", line 11, in script call
+    call ch4_main from _call_ch4_main
+  File "game/script-ch4.rpy", line 474, in script
+    br "ups du,det må være pingligt,ligesom timon ahoho"
   File "C:\Users\Jacob\Desktop\renpy-8.3.4-sdk\renpy\ast.py", line 2579, in execute
     Say.execute(self)
   File "C:\Users\Jacob\Desktop\renpy-8.3.4-sdk\renpy\ast.py", line 581, in execute
@@ -25,4 +25,4 @@ Exception: Sayer 'br' is not defined.
 Windows-10-10.0.19045 AMD64
 Ren'Py 8.3.4.24120703
 A Week Of School 2 1.0.0
-Thu Dec 19 20:19:43 2024
+Fri Dec 20 16:32:23 2024
