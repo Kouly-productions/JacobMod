@@ -161,6 +161,11 @@ image bg theater = Transform("bg/theater.png", zoom=0.5)
 image bg costume = "bg/costume.png"
 image bg changing_room = "bg/changingRoom.png"
 image bg sakuraSpecial1 = "bg/specialFloor.png"
+image bg yuriDead = "bg/yuriDead.png"
+image bg vannyHouse = "bg/vannyHouse.png"
+image bg vannyDead = "bg/vannyDead.png"
+image bg frontPizzaria = "bg/frontPizzaria.png"
+image bg insidePizzaria = "bg/insidePizzaria.png"
 image movie = Movie(size=(1280, 720), play="videos/export.webm")
 
 image glitch_color:

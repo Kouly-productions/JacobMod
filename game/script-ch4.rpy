@@ -792,6 +792,75 @@ label ch4_main:
     "det ved jeg,jeg mindet dig bare om at det sikkert dig der bliver mest våd"
     mc "??????"
     "du gik nærmer ind til vannys hus"
+    scene bg vannyHouse
+    mc "vanny er du okay?"
+    "ingeng reaksion"
+    mc "vanny jeg kommer ind nu"
+    "stadig ingeng svar,hun gav dig ingeng valg,så du gik ind i huset og ind i stuen"
+    scene bg vannyDead
+    mc "wha what!????"
+    mc "hvad sker der her?"
+    mc "vanny!"
+    mc "jeg er i chok,men kunne havet gjort det"
+    "du tog ud igen og tænkte over den død hun fik"
+    scene bg vannyHouse
+    mc "det var da godt nok ubehagligt at se"
+    "det forstår jeg godt,du så hinde dø"
+    mc "jeg bliver nød til at tage hjem,det her er for ubehagligt"
+    "du tog længer væk"
+    scene bg street_rain
+    mc "hvem er det der kommer der?"
+    "du så glitchtrap kom mod dig"
+    glitchtrap "hey mc,hvad laver du her så sendt,den er 21:00"
+    mc "trængte bare til noget luft"
+    glitchtrap "må jeg vide hvor du bor?"
+    mc "what,hvorfor vil du vide det?"
+    glitchtrap "jeg vil kunne hjælpe dig med at komme op om morgen"
+    mc "nej tak,jeg kan godt stå op selv"
+    glitchtrap "okay,ses mc"
+    "han gik sin vej"
+    mc "det var mærkeligt"
+    "ja,det var det"
+    "du gik vidre for at komme hjem så du kunne komme i seng"
+    scene bg street_night
+    mc "næsten hjemme"
+    "nu kan du se monika kom hen ved dig"
+    m "hej mc,nyder du også bare den friske luft her"
+    mc "jeg så noget forfærdeligt"
+    m "vent hva,hvad var det?"
+    "du begyndte at gå i panik i stemmen"
+    mc "jeg tjekket hvordan vanny havet det fordi hun ikke var i skolen i flere dage,første gang hun kom tilbage mistet hun et øje,og nu så jeg hinde være død i hjemmet"
+    m "det gør ondt,jeg anet ikke at hun vil gøre det"
+    mc "der også noget andet,baldi angreb mig men darthjacob redet mig,han fjernet baldi fra spillet,og han mente også selv at han har maneprolersions ævne"
+    mc "han viste mig også at han havet det,og han sagde også at du og akira har den kraft"
+    m "det har jeg da ikke ahahaha"
+    mc "hvordan kan det så være at du griner nervøst og smiler nervøst?"
+    m "det begyndt at blive sendt,vi begge har en lang dag imorgen"
+    mc "men monika du svaret ikke på"
+    m "du må sove godt mc,husk det er imorgen at du skal vælge din kærste,ses"
+    "monika gik mod hindes hjem,oh du gik mod dit hjem"
+    scene bg kitchen
+    mc "endelig hjemme,alt det der lige har sket,monika opføre sig mystisk og glitchtrap også,vanny er død og yuri er pluseligt væk,hvad sker der"
+    mc "jeg bliver nød til at gå iseng,den er 22:10"
+    "hvem taler du til?"
+    mc "um mig selv"
+    "du godt nok mærkelig"
+    mc "?????"
+    "du gik mod dit soveværelse"
+    scene bg bedroom_night
+    mc "endelig kan jeg få en god nat søvn"
+    "det har også været en hård dag"
+    "du faldte i søvn"
+
+
+
+
+
+    
+
+    
+
+
     
 
 
