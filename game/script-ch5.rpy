@@ -930,6 +930,8 @@ label ch5_main:
     "du faldte i søvn med lidt tårer i øjenene,tydeligt stadig ked over at du skulle væk fra spillet igen,det næsten ligefør at jeg vil tude over det her"
     "tak for alt spiller,ses senere igen"
     "the end"
+
+    return
     
     
 

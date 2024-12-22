@@ -1043,6 +1043,8 @@ label ch3_main:
     "der var nogen uhyggelige røde øjne et sted,men du var så træt da den er 23:00 at du slet ikke ligget mærke til det"
     "du faldte i søvn,og du hørte nogen hviske"
     ak "jeg vil altid være ved din side"
+
+    return
     
 
 

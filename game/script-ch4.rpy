@@ -852,6 +852,8 @@ label ch4_main:
     "det har også været en hård dag"
     "du faldte i søvn"
 
+    return
+
 
 
 

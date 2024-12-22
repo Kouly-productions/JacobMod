@@ -972,6 +972,7 @@ label ch2_main:
     da "ses imorgen mc,og hel og lykke,jeg håber at du får den gode sluting i det her spil"
     "drømmen sluttet og du fik nogen mere normale drømme nu,som at gå i skole i kun bluse og underbukser"
     
+    return
 
 
 
