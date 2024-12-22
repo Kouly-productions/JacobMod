@@ -167,6 +167,7 @@ image bg vannyDead = "bg/vannyDead.png"
 image bg frontPizzaria = "bg/frontPizzaria.png"
 image bg insidePizzaria = "bg/insidePizzaria.png"
 image bg end_room_monika = "bg/monika_bg.png"
+image bg monikacry = "bg/monikacry.png"
 image movie = Movie(size=(1280, 720), play="videos/export.webm")
 
 image glitch_color:
