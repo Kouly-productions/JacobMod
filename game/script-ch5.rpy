@@ -290,6 +290,9 @@ label ch5_main:
     "en lære kom ind af døren"
     tf "hvad så der elever"
     h "det her er bare ikke min dag!"
+    tf "og idag skal vi have englsk time"
+    h "wow,noget nyt for en gang skyld"
+    
 
         
 
