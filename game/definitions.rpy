@@ -166,6 +166,7 @@ image bg vannyHouse = "bg/vannyHouse.png"
 image bg vannyDead = "bg/vannyDead.png"
 image bg frontPizzaria = "bg/frontPizzaria.png"
 image bg insidePizzaria = "bg/insidePizzaria.png"
+image bg end_room_monika = "bg/monika_bg.png"
 image movie = Movie(size=(1280, 720), play="videos/export.webm")
 
 image glitch_color:
@@ -1225,6 +1226,7 @@ define sa = DynamicCharacter('sa_name', image='sakura', what_prefix='"', what_su
 define sh = DynamicCharacter('sh_name', image='shizuka', what_prefix='"', what_suffix='"', ctc="ctc", ctc_position="fixed")
 define pp = DynamicCharacter('pp_name', image='principal', what_prefix='"', what_suffix='"', ctc="ctc", ctc_position="fixed")
 define fo = DynamicCharacter('fo_name', image='foxy', what_prefix='"', what_suffix='"', ctc="ctc", ctc_position="fixed")
+define br = DynamicCharacter('bedstemorgris_name', image='bedsemorgris', what_prefix='"', what_suffix='"', ctc="ctc", ctc_position="fixed")
 
 define _dismiss_pause = config.developer
 default persistent.playername = ""
@@ -1287,3 +1289,4 @@ default ak_name = "Akira"
 default sh_name = "Shizuka"
 default pp_name = "Rekter"
 default fo_name = "Foxy"
+default bedstemorgris_name = "Bedstemor Gris"
