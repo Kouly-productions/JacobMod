@@ -2,17 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script-ch4.rpy", line 510: menu statement expects a non-empty block.
-    menu:
-        ^
-
-File "game/script-ch4.rpy", line 511: expected statement.
-    "sayori":
-            ^
-
-File "game/script-ch4.rpy", line 541: expected statement.
-    "natsuki":
-             ^
+File "game/script-ch1.rpy", line 781: Line is indented, but the preceding show statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    b "waow det var rigtigt,du eksitere"
+    ^
 
 Ren'Py Version: Ren'Py 8.3.4.24120703
-Fri Dec 20 16:00:11 2024
+Tue Dec 24 16:20:58 2024

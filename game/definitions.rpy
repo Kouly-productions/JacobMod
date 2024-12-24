@@ -373,6 +373,17 @@ image baldi IdleHappy = Transform("baldi/idleHappy.png", zoom=0.7)
 image baldi Idle = Transform("baldi/idle.png", zoom=0.7)
 image baldi Angry = Transform("baldi/angry.png", zoom=0.7)
 
+image bedste Angry = Transform("bedste/bgAngry.png", zoom=0.7)
+image bedste Confused = Transform("bedste/bgConfused.png", zoom=0.7)
+image bedste Idle = Transform("bedste/bgIdle.png", zoom=0.7)
+image bedste Happy = Transform("bedste/bgHappy.png", zoom=0.7)
+image bedste LookAway = Transform("bedste/bgLookAway.png", zoom=0.7)
+image bedste Looking = Transform("bedste/bgLooking.png", zoom=0.7)
+
+image squidward Angry = Transform("bedste/squidwardAngry.png", zoom=0.7)
+image squidward DC = Transform("bedste/squidwardDC.png", zoom=0.7)
+image squidward Happy = Transform("bedste/squidwardHappy.png", zoom=0.7)
+
 image ayanoPhone1 = "objects/Phone_Ayano1.png"
 image sayoriPhone1 = "objects/Phone_Sayori1.png"
 image sayoriPhone2 = "objects/Phone_Sayori2.png"

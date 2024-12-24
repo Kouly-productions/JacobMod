@@ -10,6 +10,7 @@ label ch3_main:
     mc "ja,jeg er både nervøs og glad på sammen tid,så længe jeg ikke får baldi som lærer"
     "det godt at høre,du tog ned i køkkenet hvor natsuki også var kommet til"
     scene bg kitchen
+    play music t6
     n "okay lad os lave noget mad mc"
     mc "yep,og jeg kan sige at idag skal nok blive din bedste dag nogensinde"
     n "hvorfor det?"
@@ -30,6 +31,7 @@ label ch3_main:
     n "ja hvorfor mon da"
     "i spiste maden færdigt sammen og i gik tideligt ud da du havet travlt med at skulle se til sayori"
     scene bg street
+    play music t9
     n "skal du ikke med til skolen?"
     mc "jo jo jeg vil bare se til sayori,er bekymret for hinde"
     n "hvorfor det?,hun er jo evig glæde skal du tænke på"
@@ -39,6 +41,7 @@ label ch3_main:
     n "bare i 2 fjollehoveder kommer til tiden"
     "natsuki gik mod skolen,mens du skyndte dig mod sayoris hus"
     scene bg house
+    play music t10y
     "du banket på døren da du ankom,ingeng reaksion,men du kunne se at døren ikke var låst,så du gik ind"
     scene bg kitchen
     "du kom ind i huset i i hindes køkken,du prøvet at råbe efter hinde"
@@ -121,6 +124,7 @@ label ch3_main:
     s "ja du har ret lad os skynde os så vi ikke får ballade"
     "i skyndte jer alt hvad i kunne"
     scene bg street
+    play music t2
     s "åh nej jeg glemte at tage bælte på"
     "du så hun rødmet og holdte bukserne oppe"
     s "jeg havet vist ikke tid til at finde bæltet hehe,vi havet så travlt,men det min egen skyld"
@@ -131,6 +135,7 @@ label ch3_main:
     mc "ja jeg er ret fantastisk ik ehehe"
     "i gik hen mod skolen"
     scene bg school
+    play music t7
     "desværre for jer så toy freddy jer der ude som ikke var kommet ind i classen inu"
     tf "når når når,i kommer forsendt til jeres classe,og det er imod reglerne"
     s "undskyld toy freddy,det min fejl,mc kom med mig bare for at hjælpe mig med at komme afsted"
@@ -143,6 +148,7 @@ label ch3_main:
     s "det skal vi nok"
     "i tog til klassen hvor freddy desvære virket lidt skuffet over at i ikke kom til tiden"
     scene bg class_day
+    play music t31
     f "hey hvor har i været?,jeg har ventet enda i 4 minutter"
     h "hvordan kan du overhovedt tage det slemt,det jo kun 4 minutter de er forsinket i!"
     f "bland dig udenom snegl!"
@@ -281,11 +287,13 @@ label ch3_main:
     br "det fordi at når man upser så upser man ahohoh"
     "i ignoreret bedste mor gris og gik ud til chica for at bestille mad"
     scene bg cantineIdle
+    play music t8
     chica "hej idag har vi kun pizza fordi alt andet er usolgt"
     mc "okay så tager vi bare det"
     chica "det vliver 100 kr"
     "i tog til katinen for at spise"
     scene bg cantine
+    play music relax
     "du sadte dig sammen med sayori og helpy"
     h "edtemindste er pizza da også lækkert"
     s "jeg elsker bare pizza"
@@ -309,6 +317,7 @@ label ch3_main:
     mc "du har en pointe"
     "i tog til skole gangen"
     scene bg hallWay
+    play music t2
     f "hej små børn,det er nu i skal have teater undervisning,men enden vi tager afsted skal jeg lige forklare hvad det vil handle om"
     f "så det som det vil handle om er at en prinsese skal blive rede fra den onde gagamel,en rider og smulfer vil rede prinsesen"
     h "når,ikke mere in det"
@@ -333,6 +342,7 @@ label ch3_main:
     h "NEJ!"
     "de drillet helpy med at synge sangen forfra igen"
     scene bg theater
+    play music t3
     "i ankom til theateret"
     f "okay små børn,nu vil jeg dele jeres roller op"
     f "helpy du skal spille som gagamel"
@@ -356,6 +366,7 @@ label ch3_main:
     f "når i må godt klæde jer om nu"
     "i gik ud til opklædrings rummet"
     scene bg costume
+    play music t6
     "i kunne se at funtime foxy kigget på bukser,og sayori kigget efter et bælte fordi hun taber bukserne"
     "akira kom hen til dig"
     ak "skal jeg hjælpe dig med at finde et ridder kustyme?"
@@ -363,6 +374,7 @@ label ch3_main:
     ak "hm okay,jeg går ud og skifter til en smuk kjole,jeg vil sikkert blive mere udmåståelig"
     "hun gav dig et kærligt blik og gik mod opklædring rummet"
     scene bg changing_room
+    play music akiraTheme
     "du begyndte at prøve at få ridder kustymet på"
     mc "whø hvor irriterende,de her ridder bukser er for store,jeg har brug for et bælte"
     "du kunne ikke finde et bælte"
@@ -417,6 +429,7 @@ label ch3_main:
     "sayori gik mod til højre mens hun trak bukserne op flere gange og ledte efter et bælte"
     "efter i alle bliv færdige med at tage jeres kustymer på gik i ud til freddy"
     scene bg theater
+    play music t4
     fx "luuuu jeg har lige fået bukser på"
     f "du ret dulled men okay,godt i alle er klædt på"
     f "nu skal i bare øve jer,og huske det skal gå som jeg har planlagt det,forstået!"
@@ -487,6 +500,7 @@ label ch3_main:
     f "nej din spasser!,du skal gøre det i prøve rummet dumme dul!"
     "i gik alle hen til tøj rummet"
     scene bg costume
+    play music akiraTheme
     ak "det var et smukt øjeblik mc"
     "hun kigger forælsket på dig"
     mc "heh,det var jo bare skuespil angåene kysset"
@@ -498,6 +512,7 @@ label ch3_main:
     ak "fint nok,jeg skal vist også have den her kjole af"
     "du gik ind i prøve rummet"
     scene bg changing_room
+    play music t4
     "du begyndte at tage din kustyme af"
     mc "puha det var godt nok varmt med den ridder kustyme"
     "det jo klart,du havet jo 2 par bukser på"
@@ -518,6 +533,7 @@ label ch3_main:
     mc "??????"
     "du gik ud af prøve rummet og mødtes med sayori og akira"
     scene bg costume
+    play music akiraTheme
     ak "hej mc,min smukke ridder"
     s "eh,hvordan kan du vide om det ikke er mig han elsker?"
     ak "fordi han elsker mig"
@@ -546,6 +562,7 @@ label ch3_main:
     "hun tog bæltet af og lagte det tilbage"
     "i gik sammen og undervejs glid sayoris bukser ned heletiden mens hun trak dem konstant op"
     scene bg theater
+    play music t7
     f "godt,nu skal vi bare have spise pause"
     fx "haha,prøv at se sayori,hun taber bukserne heletiden llululululu"
     f "stille dul!"
@@ -557,6 +574,7 @@ label ch3_main:
     f "når men jeg vil tage til lære værelset og få noget at spise,tag hen til katinen elever"
     "i alle tog til katinen,og hen til chica for at bestille"
     scene bg cantineIdle
+    play music t8
     chica "hej,hvad vil du bestille idag?"
     "nu skal du vælge mad,hvis du ikke viste det"
     mc "jeg viste det godt,jeg hørte hinde selv"
@@ -670,6 +688,7 @@ label ch3_main:
             n "det kan vi godt,men kom så,vi skal til time"
             "i gik mod gangen"
     scene bg hallWay
+    play music akiraCreepyTheme
     "du så vanny er tilbage,men mistet et øje"
     mc "wow,er du okay vanny,hvad er der dog sket med dig?"
     vanny "jeg ved ikke hvor langtid jeg har"
@@ -682,6 +701,7 @@ label ch3_main:
     "du rystet i bukserne af det der skete"
     "og i gik ind til klassen"
     scene bg class_day
+    play music t31
     "i stod og ventet på læren"
     h "pls lad det nu ikke være toyfreddy igen,pls skole være sød"
     "toy freddy kom ind,ej du troet lige var haha,det glitchtrap der kom ind"
@@ -823,12 +843,14 @@ label ch3_main:
             "han kom pludseligt mod dig med en kniv"
             "du løb væk og lukket døren foran ham og ind i et skab som kan skjule dig fra ham"
             scene bg school_closet
+            play music t10
             "du begyndte at græde,tudefjæs"
             mc "det jo klaret når jeg skulle til at dø"
             "du kunne høre hans fodtrin ikke var der mere,så du kom ud igen"
             scene bg hallWay
             "ingen spor af ham,han er nok taget ud af skolen,så du tog mod clubben"
     scene bg corridor
+    play music t8
     "du så eddy foran dig,han kom hen til dig"
     eddy "hej"
     mc "hej eddy,så hvordan er det gået med dig?"
@@ -842,6 +864,7 @@ label ch3_main:
     "du skulle til at spøger ham om mere,men han er allerede gået"
     "du gik ind i clubben"
     scene bg club_day
+    play music t5
     m "hej mc,jeg glæder mig til vores særlig dag"
     "sagde hun med et lunt smil"
     mc "tja jeg tror også at det bliver spændene"
@@ -854,6 +877,7 @@ label ch3_main:
     mc "god ide"
     "i gik mod musik lokalet"
     scene bg classWindow
+    play music relax
     "da i ankom så du de forskelige musik intrumenter"
     mc "wow der mange intrumenter,det så smukt"
     m "ja ik,det er her jeg slapper af når jeg har det svært"
@@ -913,6 +937,7 @@ label ch3_main:
     mc "det jo rigtigt nok"
     "i gik ud til de andre igen"
     scene bg club_day
+    play music t5
     m "hej så hvordan gik det alle"
     s "tja mig og helpy har haft det rigtigt sjovt sammen,selv om jeg tabte bukserne heletiden"
     h "selvføgelig gjor du det"
@@ -929,6 +954,7 @@ label ch3_main:
     mc "vi finder ud af det der,ellers kan vi alle være sammen istedenfor"
     "i gik ud for at komme ud af skolen"
     scene bg school
+    play music akiraCreepyTheme
     "darthjacob kom mod dig da du kom ud af skolen"
     da "jeg sagde jo at du skulle holde dig væk fra monika"
     mc "men hun virker så sød"
@@ -950,12 +976,14 @@ label ch3_main:
     mc "det skal jeg nok ses"
     "du så ham køre hjem af og du gik tætter på dit hjem"
     scene bg street
+    play music t7
     "klokken var 18:00,fordi dig og darthjacob snakket i en evighed,"
     mc "jeg kan bare godt lide at snakke"
     "det behøver du ikke at fortælle mig"
     mc "??????"
     "da den ikke var så mange tog du til byen for at handle"
     scene bg resturent
+    play music endingSpeech
     mc "hmmm,jeg tænker at jeg vil købe noget nemt at lave"
     "du købte nogen thaibox og noget andet mad så du har til flere dage"
     "pludseligt kom akira"
@@ -972,6 +1000,7 @@ label ch3_main:
     ak "det vil jeg meget gerne,tak mc"
     "i gik sammen til dit hjem"
     scene bg kitchen
+    play music akiraTheme
     ak "wow så det her er dit køkken,meget smukt"
     mc "tak,jeg er glad for at du kan lide det"
     "i begyndte at lave nogen thaibox,2 til hver"
@@ -1040,6 +1069,7 @@ label ch3_main:
     ak "hehe så sandt,godnat søde"
     "du gik op til dig selv og sov"
     scene bg bedroom_evil
+    play music t10y
     "der var nogen uhyggelige røde øjne et sted,men du var så træt da den er 23:00 at du slet ikke ligget mærke til det"
     "du faldte i søvn,og du hørte nogen hviske"
     ak "jeg vil altid være ved din side"

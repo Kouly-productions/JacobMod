@@ -4,7 +4,8 @@ label ch2_main:
     play music t8
     "TIRSDAG"
     "i stod op og tog tøj på"
-    s "godmorgen mc,har du sovet godt?"
+    show sayori 1a at t32
+    s "godmorgen [mc],har du sovet godt?"
     mc "ja,det har sovet mega godt"
     s "det da godt"
     mc "og tak for at lade mig overnatte hos dig,elsker dig højt som min bedste ven"
@@ -13,15 +14,19 @@ label ch2_main:
     s "god ide min søde ven"
     "i gik ud i køkkenet for at tage noget at spise"
     scene bg kitchen
+    play music t2
     "sayori tog noget yougurt og myslig frem meget mere fornuftige valg in du havet mandags"
     mc "det flabedt sagt lasse"
     "jeg siger blot bare sandheden"
     "i begyndte at spise jeres morgen mad,hvilket betyder at u spiser det lige nu"
     "bare så i ved det"
+    show sayori 1a at t32
     s "jeg elsker bare yougurt"
     mc "det gør jeg også,det smager altid godt og er sundt"
     "i gik ud af huset"
     scene bg street
+    play music t3
+    show sayori 4r at t32
     s "ups jeg glemte mit bælte,jeg taber bukserne hehe hvor pinligt,jeg henter tager lige hjem for at hente det"
     mc "okay,jeg venter på dig her"
     s "tak det sætter jeg pris på"
@@ -29,6 +34,7 @@ label ch2_main:
     mc "det ved jeg heler ikke,det ret dulled"
     "det er det ja,pludseligt kom rekter jacob frem og så dig og kom hen til dig"
     mc "oh hej rekter jacob"
+    show jacob at center
     da "hej mc,godt at se dig,um hvad venter du på?,skal du ikke til skolen?"
     mc "jo,jeg venter bare på sayori"
     da "tja det typisk hinde at være lidt sendt på den,det sødt af dig at du altid er der for hinde"
@@ -38,13 +44,17 @@ label ch2_main:
     da "når jeg må heler tage afsted,ses,og helst ungå at komme forsendt til timen"
     mc "vi skal nok komme til tiden ses"
     "rekter jacob gik ind i sin bil og kørte afsted igen"
+    hide jacob
     "pludseligt kom sayori frem igen med bæltet på"
+    show sayori 4a at t32
     s "såden,prøv at forstille dig at jeg tabte bukserne i klassen,hehe det vil være pinligt"
     mc "haha ja,men lad os komme afsted,det også lidt for dulled lige nu"
     "i tog straks hen mod skolen"
     scene bg school
+    play music t5
     "foran skolen så i helpy oh hilste"
     mc "hej helpy"
+    show helpy Happy at left
     h "oh hej mc,godt at se dig"
     s "det også godt at se dig,jeg går bare ind i klassen nu,i 2 kan bare snakke lidt sammen nu"
     h "oh okay ses"
@@ -55,56 +65,81 @@ label ch2_main:
     h "ja det må vi nok heler"
     "i gik ind i skolen"
     scene bg hallWay
+    play music t6
+    show helpy Happy at left
     h "og vil bare sige tak for at du lytter til mig og vil bringe tid sammen med mig"
     mc "det var så lidt,jeg er glad for at hjælpe"
     h "du er den eneste ven jeg har,men det er da godt at jeg har dig så"
     mc "hvad med sayori?"
+    show helpy Idle at left
     h "alttså hun er også flink nok men,tror ikke at hun vil være min ven"
     mc "hvad siger du til at være sammen med mig og sayori hos mig når vi også er kommet hjem fra clubben"
     h "mener du virkelig det,vil i virkelig have mig med sammen med jer?"
     mc "ja det er det man har venner til"
+    show helpy Happy at left
     h "waow tak du den bedste ven man kunne ønske sig"
     "han gav dig et hurtigt kram og efter det gik i i klassen"
     scene bg class_day
+    play music t8
     "i så rekter jacob stå der"
     "jeg tror at helpy snart vil føle sig snydt lige om lidt"
+    show jacob at right
     da "velkommen alle små elever,idag sker der noget meget vildt og spændene"
+    show helpy Happy at left
     h "what,skal du undervise os idag,det vil hvertfald være en forbedring istedenfor de skræld lærer"
     da "haha nej,jeg har noget andet at tage mig til bagefter"
+    show helpy dcLookAway at left
     h "selvføgelig har du det"
     "sagde helpy irriteret"
     da "jeg er kommet her for at respentere jer for 2 nye der skal gå i den her fantastiske skole"
+    show helpy DC at left
     h "hoste lyd,skræld skole"
     da "stille snegl!,når men her kommer svampebob"
     sb "bahahaha,det mig jeg hedder svampebob,og jeg er mærkelig bahahaha"
+    show helpy Happy at left
     h "what yes endelig en lærer der er flink nok"
     da "haha du så dum helpy,nej han er bare en elev,ligesom jer bønder,jeres rigtige lærer kommer nu"
     "blækward kom ind fra døren"
+    show squidward DC at center
     da "tag godt i mod blækward,han er jeres nye lærer,og han skal undervise jer idag"
+    show helpy Idle at left
     h "pls lad det være en god lærer din dumme trash skole"
     bd "hej elever,jeg vil smadre svampebob og jer andre hvis i fejler"
     da "som i kan se og høre er han en fremravene lære"
+    show helpy Angry at left
     h "what hørte du ikke lige hvad han lige sagde der!"
     da "jeg sagde,...STILLE SNEGL"
+    show helpy DC at left
     h "jeg hader den her skole"
     da "når men i må have det godt,jeg må heler passe mit job i kontoeret,ses små børn,og blækward"
+    show squidward Happy at center
     bd "ses,jeg skal nok passe rigtig godt på mit nye job som lærer"
     "darthjacob tog ud igen og pludseligt kom bedste mor gris ind"
+    hide jacob
+    show bedste Happy at right
     br "ahohoho hva så der noobs,nu skal jeg rigtig irritere jer hverdag"
     bd "oh hvor godt vi lige fik en ny elev her"
+    show bedste Confused at right
     br "vent nej,jeg er da ikke..."
+    show squidward Angry at center
     bd "tie stille og tag en plads!"
     "bedste mor gris var stille og gjor som blækward sagde"
+    hide bedste
+    show squidward DC at center
     bd "okay hør godt efter små børn,idag skal i skrive jeres egen historie"
     mc "det lyder sjovt"
     bd "godt sagt mc,jeg tror at du måske vil blive min ynglings elev"
+    show helpy Angry at left
     h "seriøst!,du har jo lige mødt ham!"
     bd "ja,men han prokker sig ikke ligesom dig lille snegl"
     h "hvorfor skal i alle kalde mig for snegl!"
+    show squidward Angry at center
     bd "STILLE ELLER JEG SMADRE DIG!"
+    show helpy Thinking at left
     h "...?"
     bd "det tænkte jeg nok,når børn,KOM SÅ IGANG!"
     "i begyndte at skrive jeres historie ned,nu skal du vælge en historie som du vil skrive om"
+    show squidward DC at center
     bd "når ja glemte at nævne at hvis i skriver en dårlig eller kedelig eller en historie der ikke giver nogen menning,dumper i"
     menu:
         "shrek og hans sump":
@@ -137,6 +172,7 @@ label ch2_main:
             mc "shrek kom løbene og slog hans grimme fjæs"
             mc "åh nej,min eneste svaghed at blive slået i mit grimme fjæs,sagde den onde trold mand og endte med at dø"
             mc "lol han var weak sagde shrek og tog hjem igen for at slappe af igen og dvagene var redet slut"
+            show squidward DC at center
             bd "altså den gav ingen menning,men det var nu ret underholdene,godt gået mc du består"
             mc "åh tusiden tak blækward"
             "blækward gik hen til helpy for at høre hans historie"
@@ -165,10 +201,12 @@ label ch2_main:
             mc "men han fulgte stemmen, der kaldte fra stjernerne"
             mc "Snart ville han blive DarthJacos, den skikkelse, galaksen aldrig ville glemme"
             mc "slut"
+            show squidward DC at center
             bd "den var lidt mærkelig,faktisk for mærkelig,du dumpet"
             "blækward gik hen til helpy for at høre hans historie"
     h "den her historie handler om en helpy som lider af en trash skole"
     "helpy rejste sig op for at fortælle hans historie"
+    show helpy DC at left
     h "der var engang en helpy som var lykkelig"
     h "men så en dag følte han sig ensom,så han besluttet sig for at prøve at gå i en skole"
     h "ligså snart han har gået i skolen i noget tid fortryd han at han valgte den trash skole"
@@ -178,17 +216,22 @@ label ch2_main:
     h "plus han fik en club at gå i,for han tænkte at det kunne han ligeså godt joine"
     h "fordi toyfreddy ikke vil lade ham gå ud af den trash skole selv når han har fri"
     h "bare fordi han har givet ham uretfærdige bøder som han ikke kan betale,slut"
+    show squidward Angry at center
     bd "den vil være god hvis det ikke skulle forstille os!"
+    show helpy Angry at left
     h "what,hvad mener du mand!,hvorfor kan du ikke lide at det hanlder om jer!"
+    show squidward DC at center
     bd "for det første,det handler alt for meget om dig"
     h "what!"
     bd "og for det andet,du skrev i din historie at vi er nogen forfærdelige lærer!"
+    show helpy DC at left
     h "jeg skrev bare hvad der passet"
     bd "så ja du dumpet,taber snegl!"
     h "jeg hader den her skole"
     bd "din tur funtime foxy"
     fx "luuu min historie er rigtig god,er i klar"
     h "åh nej,ikke hindes historie,ved bare hvad det kommer til at handle om"
+    show FT Happy at right
     fx "der var en dag hvor jeg mødtes med ron hvor jeg sagde,skal vi ikke følges ron"
     fx "så sagde han jo lad os gøre det,det vil blive sjovt"
     fx "hans bukser var så pæne,så jeg sagde,wow du har pæne bukser på"
@@ -197,14 +240,19 @@ label ch2_main:
     fx "også grinte vi alle,hahaha luuuuu"
     h "jeg kender den historie"
     fx "hvordan det?"
+    show helpy Angry at left
     h "fordi du fortæller altid den samme historie!"
     fx "den er jo så god"
+    show helpy dcLookAway at left
     h "nah,elnlig ikke"
+    show squidward Angry at left
     bd "du dumper funtime foxy,den var godt nok kedelig og uvigtig at høre,jeg er så irriteret på dig!"
     "blækward kølet ned igen og gik over til hmmmm?"
     bd "hvor er vanny,den pjækker!"
     mc "nu hvor du siger det,jeg har ikke set hinde siden igår,glitchtrap tog hinde med et sted,også så vi hinde ikke igen"
+    show squidward DC at center
     bd "mystisk,når lige meget med hinde,lad os forsætte timen"
+    hide FT
     "han gik mod bonnie for at høre hans historie"
     fb "okay den her skal nok blive god"
     "bonnie begyndte at fortælle hans historie"
@@ -230,17 +278,24 @@ label ch2_main:
     fb "var den ikke god?"
     bd "god nej,sjov ja,men du dumper"
     fb "what hvorfor?"
+    show squidward Angry at center
     bd "havet jeg ikke sagt det klart!,historen skal give menning og være sjov og din gav overhovedt ingen menning,så derfor dumper du!"
     fb "what jeg burde at få en ok karakter,jeg gjor den jo sjov"
+    show squidward DC at center
     bd "såden er det,surt sjov"
     fb "flabed"
     "blækward bliv så sur på bonnie at han slog ham"
     fb "av du sindsyg mand!"
+    show squidward Angry at center
     bd "så kan du lære det,ingeng skal sige at jeg er flabed eller irriterende,eller hvad enden ond ting det er!"
+    show helpy DC at left
     h "ja det bliver lidt svært at ungå,mumulet han"
+    show squidward DC at center
     bd "hvad sagde du der lille snegl?"
+    show helpy dcLookAway ar left
     h "um ikke noget"
     "han gik mod svampebob for at høre om hans historie"
+    hide helpy
     sb "bhahahaha,jeg vil ikke sige det"
     bd "hold nu op svampebob!"
     sb "bahahahah nej"
@@ -252,8 +307,10 @@ label ch2_main:
     sb "blækward indså hvor godt han kunne lide os,så han bliv vores gode ven og havet det sjovt sammen"
     sb "svampebob spurgte skal vi ike være venner forevigt blækward,blækward sagde,nej,bedste venner"
     sb "de sluttet af med et kram,bahahahaha god historue var,jeg fandt selv på den"
+    show sayori 4s at t33
     s "wow det var så sødt,det venskab lyd så smukt"
     bd "det kan godt være,men han dumper stadig"
+    show sayori 1n at t33
     s "hvorfor var den ikke god?"
     bd "den var ikke sjov og den gav ingeng menning,så han dumper dobelt så meget som helpy gjor,fordi jeg hader svampebob plus hans histoire var kedelig og gav ingeng menning"
     sb "bahahaha du noget du bare siger fordi du i virkeligheden ikke vil indrømme at vi er gode venner"
@@ -261,6 +318,7 @@ label ch2_main:
     "da blækward slog svampebob og kølet ned igen,gik han hen til sayori for at høre hindes historie"
     s "jeg ved ikke lige hvad der skete før der men er sikker på at du vil elsker min historie"
     "hun rejste sig op og begyndte at læse sit højt"
+    show sayori 1a at t33
     s "Det var en perfekt morgen i den lille by"
     s " Solen skinnede gennem Sayoris vindue"
     s "og fuglene sang deres glade melodier"
@@ -282,11 +340,17 @@ label ch2_main:
     s "både for andre og for sig selv. Hun lagde sig i sengen med et smil på læben og tænkte"
     s "Lykken er som solskin. Den skinner mest, når man deler den med andre"
     s "slut"
+    show squidward Happy at center
     bd "den var ret rørene,og den giver faktisk god menning,så noget kan ske plus historien var god,du består"
+    show sayori 4r at t33
     s "virkelig,tak,jeg er så glad for at i kunne lide den"
     bd "nu ved jeg at sayori er min ynglings elev"
+    hide sayori
+    show helpy Angry at left
     h "du sagde jo lige at det var mc før der var din ynglings!"
+    show squidward DC at left
     bd "nej,der sagde at han vil måske blive det,men det bliv han ikke,men han er okay,i modsætining til dig snegl"
+    show helpy DC at left
     h "jeg skulle aldirg havet valgt den her skole"
     "blækward gik hen til natsuki for at høre hindes historie"
     "natsuki rejste sig op og talte om hindes historie"
@@ -313,15 +377,19 @@ label ch2_main:
     n "Hun gik derfra med pokalen i hånden, men hendes røde kinder afslørede alt"
     n "Helt ærligt, det er ikke som om jeg prøvede SÅ hårdt!” mumlede hun"
     n "mens hun allerede tænkte på sin næste bagning.slut"
+    show squidward Happy at center
     bd "den historie var ret god,plus den gav menning,du består"
     n "tsk det ikke noget særligt,bare en fjollet ide jeg havet"
+    show sayori 4r at t33
     s "den var så god og så cute som dig natsuki"
     n "jeg er ikke....CUTE!"
     "selv om natsuki virket irriteret og kold,kunne hun ikke skjule lidt rødmen på hindes kinder"
     n "hold din mund lasse!"
+    hide sayori
     "når når okay,jeg har altså også følelser"
     "blækward gik vidre til yuri,hinde som de fleste ser som kedelig,fordi hun er kedelig"
     y "huh?"
+    show squidward DC at center
     bd "når fortæl os din historie yuri"
     y "okay jeg skal gøre mit bedste"
     "yuri rejste sig op og begyndte at fortælle hindes historie"
@@ -357,9 +425,11 @@ label ch2_main:
     bd "og foresten yuri,du dumpet"
     bd "lad os høre din historie ayano"
     "ayano nikket og begyndte at fortælle hindes historie"
+    show ayano idle
     ay "der var engang en prinsesse som bliv låst inde i et tårn"
     ay "for hvergang hun spillet smart,bliv hun klodset og gjort til grin"
     ay "det var som en forbandelse der ramte hinde"
+    show bedste Happy
     br "det må være mig der forbandet hinde med upser,ahohoho"
     ay "du afbryder"
     br "uuuuups,der gjor jeg det vist igen var,timon"
@@ -404,16 +474,20 @@ label ch2_main:
     bd "når men i har frikvater nu,ses,nu gider jeg ikke se på jer mere"
     "blækward pakket sine ting sammen og gik vidre,og i gik på vej ud til klassen"
     scene bg hallWay
+    play music t9
     h "wow en skåd lærer var"
     mc "han var okay mod mig og god ved sayori og natsuki,men ja,han er lidt voldig"
     h "lidt!,han slog nogen elever!,det vil jeg ikke kalde for lidt"
+    show sayori 1a at t32
     s "jeg tror at vi alle trænger til at komme ud og lave noget i frikvateret"
     mc "du har ret sayori lad os komme ud"
     "i gik ud for at holde frikvater"
     scene bg school_yard
+    play music t10
     "i begyndte at hygge tale lidt"
     mc "så hvordan har du det med at være sammen med os helpy?"
     h "ret godt faktisk,i 2 er nogen mega gode venner især dig mc"
+    show sayori 1a at t32
     s "det så rart at vi alle er venner,og det bliver så sjovt når vi alle 3 skal ud sammen efter alt det her"
     mc "yep det bliver fantastisk"
     "i tænkte på en ide på hvad i skal lave i jeres frikvater"
@@ -422,6 +496,7 @@ label ch2_main:
     h "jeg har tilfældigvis nogen farve blyanter og papir med"
     mc "hvor har du dem fra?"
     h "det har jeg ikke lyst til at sige,men lad os nu gå i gang med at have det sjovt"
+    show sayori 1r at t32
     s "yay,jeg ved allerede hvad jeg vil tegne"
     mc "okay lad os lave en kokoranse"
     s "jeg er med på den,hvad er det?"
@@ -431,11 +506,13 @@ label ch2_main:
     h "se,jeg har tegnet toy freddy med en numse hage haha"
     mc "haha den er ret sjov,den passer godt til ham"
     h "ja ik,fordi så grim er han haha"
+    show sayori 4s at t32
     s "jeg har tegnet mig der taber bukserne hehe"
     h "hvorfor dog det?"
     s "fordi jeg altid taber bukserne når jeg ikke har bælte på haha"
     mc "det ret sjovt at se"
     h "det godt nok dulled"
+    show sayori 1a at t32
     s "ja jeg er ret dulled,jeg har også en bukse samling,jeg har cirka 100 par bukser"
     h "what!?"
     mc "tja det ret mange"
@@ -445,6 +522,7 @@ label ch2_main:
     s "det synes jeg også,den med toy freddy var genial"
     h "haha tak,godt at i edtemindste sætter pris på mig"
     mc "så betyder det vil at du skal sige din pinglieste øjeblik sayori"
+    show sayori 5a at t32
     s "det rigtigt,det mest pinglige jeg har oplevet er at tabe bukserne foran hele skolen"
     h "det kan jeg godt huske,og funtime foxy gik ALT for meget op i det"
     mc "tja det var pingligt ja"
@@ -454,6 +532,7 @@ label ch2_main:
     s "ja lad os gå"
     "i kom til skole gangen og foxy stod der"
     scene bg hallWay
+    play music t7
     h "hvorfor er du her ude,skulle vi ikke ind klassen"
     fo "nej,vi skal jo til idret"
     h "åh nej,ikke idret"
@@ -464,6 +543,7 @@ label ch2_main:
     fo "lev med det,når men kom med mig elever,for nu skal vi til idret"
     "i fulgte foxy hen til idret"
     scene bg train_hall
+    play music t31
     fo "godt elever,nu vil jeg dele jer op i et hold"
     "foxy begyndte at dele jer op,måske er du heldig"
     fo "vi spiller høvdinge bolt idag"
@@ -558,9 +638,11 @@ label ch2_main:
     f "når men i kan bare tage til katinen og holde spise pause,ses små børn"
     "i alle gik hen mod gangen for at komme vidre mod katinen"
     scene bg hallWay
+    play music t2
     h "endelig en pause for foxy"
     mc "han var sød ved mig"
     h "ja godt for dig,han gjor grin med os heletiden!"
+    show sayori 1a at t32
     s "nu skal vi bare ind og bestille noget og få et hyggeligt måltid sammen"
     h "åh nej,jeg har ingen penge til mad begrund af toy freddys dumme bøder"
     mc "barolig helpy,jeg skal nok betale for dig"
@@ -591,8 +673,10 @@ label ch2_main:
             mc "tak,tænkte at det noget vi begge vil kunne lide"
             "i gik hen til bordrene og tog plads"
     scene bg cantine
+    play music t3
     "i satte jer og spiste,og helpy var meget taknemelig for at du bestile mad til ham også"
     h "bliver nød til at takke dig igen"
+    show sayori 1r at t32
     s "mc er bare så sød og venelig"
     mc "tak venner"
     "i spiste færdigt og hygge talet lidt"
@@ -600,6 +684,7 @@ label ch2_main:
     h "den var vild god,kan godt forstå hvorfor du vælger det mad der"
     "klokken ringet og i skulle tilbage til time"
     scene bg class_day
+    play  music t4
     "i kom til klassen og i fik springtrap som lærer,han kom ind"
     springtrap "hej små børn,jeg har noget sjovt og stort i skal lave"
     br "stort?,det lyder som pølle ahohohoho sjovt"
@@ -641,8 +726,10 @@ label ch2_main:
     sb "bahahaha,det må være fordi at jeg er et par bukser"
     springtrap "det rigtigt svaret,så du er stor og sjov aa a a a a a a a"
     springtrap "så det dig sayori,hvorfor lyder det som om at det er bukssayori i jacobs sang"
+    show sayori 4r at t33
     s "er det fordi at jeg er bukser"
     springtrap "ja det rigtigt  a a a a aa  a"
+    hide sayori
     fb "jeg forstår ikke de jokes"
     springtrap "ved du hvorfor"
     fb "nej hvorfor"
@@ -695,6 +782,7 @@ label ch2_main:
     h "mand jeg hader den lærer"
     "i tog ud og hen mod litteltur clubben"
     scene bg corridor
+    play music t5
     "i så eddy stå der,som om at han ventet på dig"
     eddy "hej"
     mc "hej eddy,det som om at du vidste at jeg vil komme"
@@ -707,10 +795,12 @@ label ch2_main:
     eddy "jo ser du,der er en chance for at der sker noget uhyggeligt i clubben senere hen"
     mc "vent what,hvad er det for noget der kan ske"
     eddy "det finder du ud af senere,men jeg må heler gå,jeg skal se om der er flere nye elever som jeg kan logge til at joine clubber,ses venner"
+    show sayori 1a at t32
     s "ses,det var godt at møde dig"
     "eddy gik væk igen og i gik ind i clubben og mødes med de andre"
     scene bg club_day
     h "godt at jeg edtemindste kan være sammen med nogen her"
+    show sayori 4r at t32
     s "vi er også glade for at du går her helpy"
     m "hej alle sammen er i klar til vores club aktiviteter?"
     s "yay det bliver 100% sjovt"
@@ -728,6 +818,7 @@ label ch2_main:
     m "videnunderligt,lad os begynde timen nu"
     "i alle gik i 2 og 2 i forskelige retninger,dig og natsuki skulle hen til køkkenet"
     scene bg kitchen
+    play music t6
     "natsuki stillet tingene klart som i skulle bruge til at bage med"
     n "har du prøvet at bage før mc?"
     mc "har prøvet det med mine forældre nogen par gange,men jeg er ikke så god til det"
@@ -786,9 +877,11 @@ label ch2_main:
     n "når men vi må heler komme til de andre og vise hvor gode vi har været med vores cupcakes"
     "i gik tilbage til de andre så i alle kan nyde jeres dag sammen med jeres fantastiske cupcakes"
     scene bg club_day
+    play music t5
     h "wow det dufter godt"
     m "mmmm det dufter himmelsk,hvad har i lavet?"
     n "hmmm,bare cupcakes ikke det helt store"
+    show sayori 4r at t32
     s "men du er så fantastisk til at bage"
     n "det bare en opskrift okay!,men tak tror jeg"
     n "okay er i klar til at se vores cupcakes"
@@ -796,8 +889,10 @@ label ch2_main:
     n "okay her kommer det,tadaa"
     "natsuki smilte stolt over dit og hindes arbejde"
     "det var cupcakes der lignet fnaf cupcakes"
+    show sayori 4q at t32
     s "såååå cute,ligså cute som dig natsuki"
     n "hvor mange gange skal jeg sige det,jeg er ikke CUTE!"
+    hide sayori
     "pludseligt bryd bedstemor gris ind"
     br "ahohoho,det ligner at i har bagt mange af mig,er jeg ikke bare nuttet"
     h "nah,elenlig ikke"
@@ -820,6 +915,7 @@ label ch2_main:
     mc "jeg synes at hun virker ret sjov"
     h "hvordan det?,hun prøver altid på at få folk til at glo ud af luften!"
     mc "ja,du har en pointe"
+    show sayori 4a at t32
     s "må jeg få en til cupcake"
     n "sayori,du har allerede spist 5,vi andre har kun lige spist 2"
     s "pllllls"
@@ -829,6 +925,7 @@ label ch2_main:
     s "giv mig et kram"
     "sayori krammet natsuki kort"
     n "typisk dig sayori"
+    hide sayori
     "hun kunne godt lide det rigtigt,men hun vil bare aldrig inrømme det"
     "i nyd de sidste af cupcakesne og det var tid til at tage hjem igen"
     m "tak for idag alle,håber i har haft det sjovt"
@@ -875,6 +972,7 @@ label ch2_main:
     "hun gav dig et kærligt smil,hun er tydeligt lun på dig"
     "i hilste farvel og i begge gik ud af bygningen"
     scene bg school
+    play music akiraTheme
     "du var alene der ude,eller du troet du,intil"
     ak "hej mc,sjovt at vi lige tilfældigvis stødte ind på hindaen"
     "hun så forælsket ud,mystisk,både monika og akira kigget såden på dig idag"
@@ -908,6 +1006,7 @@ label ch2_main:
     mc "hvad har glitchtrap mon gjort mod vanny"
     "du gik længer væk fra skolen og kom lidt tættter på hjemmet"
     scene bg street
+    play music t10
     "der du kom til halvejen ved dit hus stødte du ind på natsuki som havet et blåt øje"
     mc "whoa what,natsuki er du okay"
     n "jeg er stadig ilive,men jeg føler at min far vil dræbe mig før eller siden"
@@ -918,6 +1017,7 @@ label ch2_main:
     mc "tak,det vigtigste er nu at få dig i sikkerhed"
     "i tog hjem til dig og kom til dit køkken"
     scene bg kitchen
+    play music t6
     n "hmmmm,det ligner det samme køkken som den i clubben"
     mc "ja du har ret,det nok fordi at jacob og elias ikke havet et andet køkken biled"
     "natsuki kigget lidt forrviret på dig da du sagde det,du er en ret mærkelig særling"
@@ -951,17 +1051,20 @@ label ch2_main:
     mc "jeg har et gæste værlse du må låne,kom med mig"
     "natsuki fulgte med dig og kom foran døren"
     scene bg door
+    play music t9
     n "vil bare sige tak for alt det her,det coolt af dig at prøve at hjælpe os alle,jeg ved at helpy og sayori også har det hårdt"
     mc "det var sålidt,jeg er bare glad for at hjælpe mine venner som jeg holder af"
     n "når men sov godt"
     mc "sov godt natuski"
     "du gik hen til dit eget soveværlse"
     scene bg bedroom_night
+    play music t10
     "klokken bliv 22:00 og du så at sayori gav en besked til dig,det stod hjælp mig mc,jeg har en slem depression,ses imorgen og pls hjælp mig imorgen"
     mc "jeg skriver til hinde at jeg vil hjælpe hinde og kan lide hinde,og ses imorgen"
     "du sendte beskeden og lagt dig til at sove"
     "noget kom ind i din drøm,et uhyggelig drøm"
     scene bg veinmask
+    play music m1
     da "håber du kan høre mig mc,du kan ikke svare mig lige nu fordi du sover"
     da "lyt godt efter du må rede sayori imorgen før det er forsendt,hun har selvmords tanker"
     da "den gode nyhed er at jeg har slettet natsukis fars fil så han ikke eksitere mere,ja jeg har maneprolersions ævner her"

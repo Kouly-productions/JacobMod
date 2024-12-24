@@ -31,6 +31,7 @@ label ch5_main:
     mc "når ja,jeg vil nydlig komme forsendt"
     "du gik ud af huset"
     scene bg street
+    play music t2
     "du så sayori komme hen mod mig"
     "wow,hun taber ikke bukserne den her gang"
     s "hej mc,kan du se noget nyt i mig idag?"
@@ -44,6 +45,7 @@ label ch5_main:
     s "oh,um jeg vil bare være flink,og jeg synes også at du er sød,den sødeste dreng der er"
     "i gik sammen hen til skolen"
     scene bg school
+    play music t3
     "i mødte freddy og toy freddy foran skolen"
     "når ja,og helpy selvføgelig"
     tf "velkkomen små børn,godt at være har igen"
@@ -58,6 +60,7 @@ label ch5_main:
     h "du mener vil kom til skolen og bliv tortureret"
     "i gik ind i klassen"
     scene bg class_day
+    play music t4
     h "jeg havet glædet mig såden til fredag,og selvføgelig skal vi abselut have toy freddy!"
     mc "godt det så snart er weekend"
     h "godt for jer,jeg bor jo stadig skolen begrund af toy freddys bøder"
@@ -161,6 +164,7 @@ label ch5_main:
     springtrap "det var vist den her time,i har spise pause nu"
     "i gik mod katinen"
     scene bg hallWay
+    play music t9
     "lige pluselig så du eddy foran dig"
     eddy "hej"
     mc "hej igen eddy"
@@ -179,6 +183,7 @@ label ch5_main:
     mc "nice"
     "i gik hen mod chica"
     scene bg cantineIdle
+    play music t5
     chica "hej mc,hvad skal du bestille idag?"
     "nu skal du vælge"
     menu:
@@ -283,6 +288,7 @@ label ch5_main:
             ak "Altid, MC. Altid"
     "i alle bliv færdige med at spise og skulle til timen igen"
     scene bg hallWay
+    play music t31
     h "jeg håber det bliver freddy"
     mc "jeg kan også bedst lide freddy"
     "i gik ind i klassen"
@@ -378,12 +384,14 @@ label ch5_main:
     tf "det rigtigt flot klaret,i har frikvater,hav det sjovt"
     "i tog ud af klassen"
     scene bg hallWay
+    play music t9
     h "mand jeg hader toy freddy"
     mc "han er lidt ond mod dig"
     h "lidt!,han bliver ved og ved hver eneste fa vi har med ham!"
     mc "det ret flabed faktisk,lad os gå ud til frikvateret"
     "i gik mod frikvateret"
     scene bg school_yard
+    play music t6
     "nu skal du vælge hvem du vil være sammen med"
     menu:
         "sayori":
@@ -495,6 +503,7 @@ label ch5_main:
             ak "Interessant? Tja, jeg tager det som et kompliment. Lad os blive her lidt længere. Bare os to"
             "senere hun ringet klokken,og i gik hen mod klassen"
     scene bg hallWay
+    play music t9
     h "godt at det med toy freddy er overstået"
     y "han burde at være søder ved dig"
     sa "yuri har ret,du fortjener bedre helpy"
@@ -502,6 +511,7 @@ label ch5_main:
     mc "vi er også glad for at have dig"
     "i gik ind i klassen"
     scene bg class_day
+    play music t31
     "senere hen kom en lære ind"
     f "velkommen elever,enden jeg starter timen,er der noget vigtigt jeg vil fortælle jer"
     h "what,virkelig?"
@@ -551,6 +561,7 @@ label ch5_main:
             "han virket ret sur over at du ikke troet på ham"
     "i gik ud af klassen"
     scene bg hallWay
+    play music t9
     h "jeg forstår ikke de her lære"
     fb "enig,de vildt onde og flabede"
     mc "jeg er bare glad for at vi har weekend"
@@ -562,6 +573,7 @@ label ch5_main:
     mc "og du gøre det helt perfekt"
     "du fik hinde til at rødme,og i gik mod clubben"
     scene bg corridor
+    play music t10y
     "eddy gik hen mod dig"
     eddy "hej"
     mc "hej eddy,det sjovt at du altid kommer på den måde"
@@ -599,6 +611,7 @@ label ch5_main:
     "du prøvet at gå ind på toiletet og så.........glithhhhh"
     mc "whoa!"
     scene bg yuriDead
+    play music t6s
     y "sdfuiddshfd"
     y "guihsiusdhfidsfh"
     y "ofjgsjsdufjhsdif"
@@ -643,6 +656,7 @@ label ch5_main:
     mc "hvad har du gang i monika"
     "pludseligt kom i i et andet sted"
     scene bg end_room_monika
+    play music m1
     mc "what,monika,hvad er det her for et sted?"
     m "et sted som jeg har lavet for kun os 2 min kære mc"
     "hun var helt forælsket i dig som du kan se"
@@ -695,12 +709,14 @@ label ch5_main:
     m "tak for alt mc,jeg vil få yuri tilbage,og lad os komme ud her fra"
     "monika tog jer ud derfra"
     scene bg corridor
+    play music t10
     m "jeg vil gå i mit rum og tilføje yuri tilbage,hvis jeg kan,det ikke sikkert at jeg kan,men nu prøver jeg at se om det er muligt for mig"
     mc "vil det så sige at du har fri for din yandere?"
     m "ikke helt nej,men du fik mig til at indse mine fejl.og jeg lover at jeg aldrig vil begå den samme fejl igen"
     m "nyd nu fnaf fæsten,jeg tror at freddy venter på jer udenfor"
     "du gik ud fra skolen og mødtes med de andre og eleverne"
     scene bg school
+    play music t2
     f "godt i er samlet nu elever,vi har ventet på dig mc"
     mc "tak freddy,det sætter jeg pris på"
     f "og dem der ikke vil med kan bare tage hjem igen"
@@ -728,11 +744,13 @@ label ch5_main:
     f "når men lad os komme afsted"
     "i gik mod fnaf pizzairiaet"
     scene bg frontPizzaria
+    play music t3
     f "viste i godt at det faktisk er her jeg kom fra"
     mc "wow,jeg viste ikke at det har været der"
     f "virkelig?,det har altid været der,jeg har bare ikke vist jer det indtil nu"
     "i gik helt ind i pizzariaet"
     scene bg insidePizzaria
+    play music t4
     f "jamen så er vi har"
     mc "wow det vildt flot freddy"
     f "det er jeg glad for at du synes,mig toyfreddy og darthjacob har selv bygget det"
@@ -897,6 +915,7 @@ label ch5_main:
     f "vi ero også glade for dig mc,du trosalt vores ynglings elev og ven"
     "klokken bliv 22:00 og i vendte alle hjem af"
     scene bg frontPizzaria
+    play music mend
     "du kigget lidt på pizzariaet,og bagefter kom darthjacob hen til dig"
     da "hej mc,jeg vil bare sige tak for at du gad at spille det her spil,det har været en ære at møde dig,ses igen senere mc"
     mc "jeg har også været glade for at alt det jeg har været igennem,borset fra det ene tidspunkt hvor baldi skulle til at dræbe mig"

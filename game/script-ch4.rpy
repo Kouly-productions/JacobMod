@@ -30,12 +30,14 @@ label ch4_main:
     ak "hehe okay,jeg lover at jeg vil aldrig gøre det igen"
     "i gik ned for at få spist morgen mad"
     scene bg kitchen
+    play music t2
     "i begyndte at spise morgen mad,kedeligt mad i spiser,hvorfor lige rugbrød"
     ak "det var god morgen mad"
     "det mener hun vil ikke"
     mc "det var okay"
     "i så klokken og skulle afsted til skolen"
     scene bg street
+    play music t7
     "i så pludseligt monika som opdaget ja"
     m "hej mc,grrrr,hvad laver du sammen med hinde"
     ak "og hvad skal det så betyde,det mig han elsker"
@@ -60,6 +62,7 @@ label ch4_main:
     vanny "åh nej,jeg har allerede mistet et øje før"
     "i valgte en eller anden grund bare at gå vidre til skolen"
     scene bg school
+    play music t7
     "i så sayori på vejen"
     mc "hej sayori"
     s "hej mc hej monika og akira,det rart at se jer igen"
@@ -102,6 +105,7 @@ label ch4_main:
     "hun sagde ikke noget men virket irriteret og gik over til sin club istedenfor"
     "nu bliver scenen skiftet tilbage til dig igen"
     scene bg class_day
+    play music t4
     "i sad og ventet på jeres lærer"
     h "pls alt andet in toy freddy"
     "der kom en lære ind"
@@ -226,6 +230,7 @@ label ch4_main:
     b "jeg smadre jer alle!"
     "i løb ind i freddy heldigvis"
     scene bg hallWay
+    play music t31
     f "hey elever,i har altså ikke fri inu,gå tilbage til klassen!"
     n "det kan vi jo ikke når baldi er syg i hoved!"
     f "vent hvad?,hvad er det i prøver at sige"
@@ -265,6 +270,7 @@ label ch4_main:
     da "når men i kan bare holde spise pause nu,i er i sikkerhed igen"
     "elverne takket rekteren borset fra helpy,og gik ud til chica"
     scene bg cantineIdle
+    play music t2
     chica "hvad vil du gerne have idag mc?"
     "nu skal du vælge mad"
     menu:
@@ -278,6 +284,7 @@ label ch4_main:
             chica "det bliver 160kr"
             "du købte maden og gik vidre"
     scene bg cantine
+    play music endingSpeech
     mc "hmmmm,hvem skulle jeg side og spise med idag"
     "hvem vælger du?"
     menu:
@@ -410,6 +417,7 @@ label ch4_main:
             ak "ja,det rigtigt,det var ret at være sammen med dig min søde ven"
             "i gik mod klassen"
     scene bg hallWay
+    play music t2
     "du så helpy der hende"
     mc "hej helpy"
     h "hej mc,jeg håber bare at vi ikke får toy freddy"
@@ -418,6 +426,7 @@ label ch4_main:
     h "men det bedre in toy freddy"
     "i gik ind i klassen"
     scene bg class_day
+    play music t31
     "senere hen kom blækward ind"
     h "åh nej"
     bd "hej elever idag skal i lære hvor byerne ligger i fantasi"
@@ -488,6 +497,7 @@ label ch4_main:
     bd "i har frikvater nu små børn"
     "blækward pakket sine ting sammen og gik,i gik ud fra klassen"
     scene bg hallWay
+    play music t7
     "sayori stod ved dig og vil spøger dig om noget"
     s "hej,håber at du vil være sammen mig i i frikvateret"
     mc "selvføgelig,jeg mener vi alle er ude"
@@ -504,6 +514,7 @@ label ch4_main:
     s "jeg ved at du vil vælge det rigtige mc"
     "i gik på vej ud"
     scene bg school_yard
+    play music t8
     "i kom ud til frikvateret,nu skal du vælge hvem du vil være på date med"
     mc "det jo bare en venne ting"
     "ja det siger du jo"
@@ -593,6 +604,7 @@ label ch4_main:
             mc "Du er bestemt én af en slags, Akira"
             "i kunne høre klokken ringe,og i skulle til klassen nu"
     scene bg hallWay
+    play music t31
     "i mødtes med foxy som skulle fortælle jer noget"
     fo "hej små børn,kan i gætte hvad vi skal idag?"
     h "åh nej,er det idræt"
@@ -601,6 +613,7 @@ label ch4_main:
     fo "når men kom med mig elever"
     "i gik med foxy til idræt"
     scene bg train_hall
+    play music t4
     fo "det er tid til at vi skal spille fodbold"
     fo "jeg deler jer op i et hold"
     "han begynder at dele jer op i et hold"
@@ -626,6 +639,7 @@ label ch4_main:
     h "næ"
     "du gik mod clubben"
     scene bg corridor
+    play music t5
     "du så helpy der over"
     h "jeg tænker at det er min tur at være sammen med dig i clubben"
     mc "ja,det er det vel,det bliver sjovt"
@@ -657,6 +671,7 @@ label ch4_main:
     mc "det lyder som en god ide,lad os gøre det"
     "i tog hen til skab rummet"
     scene bg closet
+    play music relax
     "i tog en bog frem hvor i kunne læse om magiere"
     h "Se her, MC. Det her afsnit handler om 'energiens balance hvordan magi kræver lige dele fokus og intention for at fungere"
     h "Det er ret fascinerende, ikke?"
@@ -682,6 +697,7 @@ label ch4_main:
     h "det siger jeg også,jeg er glad for at vi er venner"
     "i tog tilbage til de andre"
     scene bg club_day
+    play music t5
     m "når,hvordan har jeres dag været"
     s "den har været fantastisk"
     m "jeg synes at vi skal fortælle hvad vi har lavet"
@@ -708,6 +724,7 @@ label ch4_main:
     mc "ses alle det var hyggeligt"
     "i vente hjem og kom ud af clubben"
     scene bg corridor
+    play music t10
     "det med vannys forsvindning og yuris forsvinding bekymret dig en del"
     "pludseligt så du eddy komme mod dig"
     eddy "hej"
@@ -726,6 +743,7 @@ label ch4_main:
     mc "okay ses?"
     "du vil tjekke efter vanny,men først vil du tage hjem og spise"
     scene bg school
+    play music t10y
     "klokken var 17:40,du valgte bare at gå vidre hjem da det føltes helt skummelt nu"
     "men du kunne se baldi gik mod dig"
     b "du fik rekteren til at fyre mig,og nu vil jeg tage min hævn"
@@ -734,6 +752,7 @@ label ch4_main:
     b "du kunne bare ladevære med at være så dum"
     "du skyndte dig væk ved at løbe"
     scene bg street
+    play music t20
     "du så at han stadig var efter dig"
     b "du kan ikke løbe væk forevigt mc,jeg har drukket masser af enegi drik,så jeg kan blive ved"
     "du løb vidre"
@@ -750,6 +769,7 @@ label ch4_main:
     da "det forklare jeg senere,lige nu har du brug for at få noget at spise først"
     "i gik sammen ind i dit køkken"
     scene bg kitchen
+    play music mend
     mc "noooo,jeg har ikke noget mad tilbage"
     da "bareolig det fixer jeg"
     "han tilføjet pludseligt noget mad til dig"
@@ -785,6 +805,7 @@ label ch4_main:
     "så bare vent til hvad du kommer snart til at se"
     "klokken bliv 19:00,og du har tænkt dig at gå ud og se til vanny"
     scene bg street_night
+    play music t10y
     "du følte dig mere og mere rystet over hvad der måske er sket ved vanny,men aligevel valgte du at gå vidre"
     scene bg street_rain
     "det begyndte at regne,nu bliver du mest våd"
@@ -798,6 +819,7 @@ label ch4_main:
     mc "vanny jeg kommer ind nu"
     "stadig ingeng svar,hun gav dig ingeng valg,så du gik ind i huset og ind i stuen"
     scene bg vannyDead
+    play music td
     mc "wha what!????"
     mc "hvad sker der her?"
     mc "vanny!"
@@ -809,6 +831,7 @@ label ch4_main:
     mc "jeg bliver nød til at tage hjem,det her er for ubehagligt"
     "du tog længer væk"
     scene bg street_rain
+    play music t10y
     mc "hvem er det der kommer der?"
     "du så glitchtrap kom mod dig"
     glitchtrap "hey mc,hvad laver du her så sendt,den er 21:00"
@@ -823,6 +846,7 @@ label ch4_main:
     "ja,det var det"
     "du gik vidre for at komme hjem så du kunne komme i seng"
     scene bg street_night
+    play music t10
     mc "næsten hjemme"
     "nu kan du se monika kom hen ved dig"
     m "hej mc,nyder du også bare den friske luft her"
